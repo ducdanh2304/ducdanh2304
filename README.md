@@ -19,9 +19,9 @@
 ### <div align="center">💡 About Me</div>
 
 <div align="center" style="max-width: 920px; margin: 0 auto; color: #CBD5E1; font-size: 15px; line-height: 1.7;">
-  👋 Hi! I am a Computer Science student at <b>UIT - VNUHCM</b> with a relentless passion for Artificial Intelligence and deep learning systems. 
+  👋 Hi! I am a Computer Science student at <b>UIT - VNUHCM</b>. I love building practical deep learning systems and solving hard machine learning challenges. 
   <br>
-  🚀 I thrive on turning complex concepts into production-grade solutions. My core strengths lie in <b>Computer Vision</b>, <b>NLP & Information Retrieval</b>, and <b>Multimodal AI architectures</b>. I am a fast learner with a rigorous, metric-driven mindset—constantly exploring cutting-edge models, optimizing data-centric pipelines, and actively challenging myself in competitive ML arenas where I've consistently achieved top-tier global and regional rankings.
+  🚀 My main focus areas are <b>Computer Vision</b>, <b>NLP & Information Retrieval</b>, and <b>Multimodal AI</b>. I enjoy working on data-centric optimization, fine-tuning modern models, and building robust pipelines. I also love testing my skills in competitive ML and coding arenas.
 </div>
 
 <br>
