@@ -1,4 +1,4 @@
-<!-- SECTION 01 — HERO / INTRODUCTION -->
+<!-- SECTION 01 — HERO / INTRODUCTION a-->
 <div align="center">
   <img src="https://raw.githubusercontent.com/ducdanh2304/ducdanh2304/main/assets/hero-banner.svg" alt="Nguyen Duc Danh — AI Systems and Applied ML" width="100%" />
 </div>
