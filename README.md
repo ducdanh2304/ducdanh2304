@@ -70,68 +70,43 @@
 
 ---
 
----
-
----
-
----
-
 ### <div align="center">🚀 Featured AI & ML Projects</div>
 
-<br>
-
-<div align="center">
-  <table width="100%" style="border: none; background: transparent; border-collapse: collapse;">
-    <tr>
-      <!-- CARD 1: LEXVIET -->
-      <td width="50%" valign="top" style="padding-right: 12px; border: none; background: transparent;">
-        <div style="background: linear-gradient(145deg, #111A30 0%, #0D1322 100%); border: 1.5px solid #FF8A00; border-radius: 14px; padding: 22px; text-align: left; box-shadow: 0 8px 24px rgba(255, 138, 0, 0.12);">
-          <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
-            <span style="font-family: monospace; font-size: 11px; font-weight: 800; color: #FFB03B;">⚖️ RETRIEVAL // SYSTEM_01</span>
-            <span style="font-family: monospace; font-size: 10px; padding: 2px 8px; border-radius: 4px; background: rgba(255,138,0,0.15); color: #FF9E3B; border: 1px solid rgba(255,138,0,0.3);">HYBRID RRF</span>
-          </div>
-          <h3 style="color: #FFFFFF; font-size: 17px; margin: 0 0 10px 0; font-weight: 800;">LexViet — Legal Document Retrieval</h3>
-          <p style="color: #CBD5E1; font-size: 13.5px; line-height: 1.6; margin-bottom: 16px;">
-            An advanced information retrieval pipeline for Vietnamese legal texts. Built with a robust hybrid retrieval architecture combining dense embeddings, sparse retrieval, and multi-stage reranking.
-          </p>
-          <div style="margin-bottom: 16px;">
-            <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"/>&nbsp;
-            <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" alt="PyTorch"/>&nbsp;
-            <img src="https://img.shields.io/badge/Dense_Retrieval-FF8A00?style=flat-square&logo=qdrant&logoColor=white" alt="Retrieval"/>&nbsp;
-            <img src="https://img.shields.io/badge/Reranking-C084FC?style=flat-square&logo=cohere&logoColor=white" alt="Reranking"/>
-          </div>
-          <div>
-            <a href="https://github.com/ducdanh2304" target="_blank"><img src="https://img.shields.io/badge/GitHub-View_Repository-181717?style=for-the-badge&logo=github&logoColor=white" alt="Repo" height="26"/></a>
-          </div>
-        </div>
-      </td>
-
-      <!-- CARD 2: MULTI-VEHICLE DETECTION -->
-      <td width="50%" valign="top" style="padding-left: 12px; border: none; background: transparent;">
-        <div style="background: linear-gradient(145deg, #111A30 0%, #0D1322 100%); border: 1.5px solid #C084FC; border-radius: 14px; padding: 22px; text-align: left; box-shadow: 0 8px 24px rgba(192, 132, 252, 0.12);">
-          <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
-            <span style="font-family: monospace; font-size: 11px; font-weight: 800; color: #C084FC;">🚗 COMPUTER_VISION // 3LC</span>
-            <span style="font-family: monospace; font-size: 10px; padding: 2px 8px; border-radius: 4px; background: rgba(192,132,252,0.15); color: #E9D5FF; border: 1px solid rgba(192,132,252,0.3);">1ST PLACE</span>
-          </div>
-          <h3 style="color: #FFFFFF; font-size: 17px; margin: 0 0 10px 0; font-weight: 800;">Multi-Vehicle Detection Challenge</h3>
-          <p style="color: #CBD5E1; font-size: 13.5px; line-height: 1.6; margin-bottom: 16px;">
-            A high-performance computer vision solution for multi-class vehicle detection. Focused on data-centric error inspection, label auditing, and rigorous optimization to maximize mAP metrics.
-          </p>
-          <div style="margin-bottom: 16px;">
-            <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"/>&nbsp;
-            <img src="https://img.shields.io/badge/YOLO-00FFFF?style=flat-square&logo=ultralytics&logoColor=black" alt="YOLO"/>&nbsp;
-            <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white" alt="OpenCV"/>&nbsp;
-            <img src="https://img.shields.io/badge/Data_Centric_AI-76B900?style=flat-square&logo=nvidia&logoColor=white" alt="AI"/>
-          </div>
-          <div>
-            <a href="https://github.com/ducdanh2304" target="_blank"><img src="https://img.shields.io/badge/GitHub-View_Repository-181717?style=for-the-badge&logo=github&logoColor=white" alt="Repo" height="26"/></a>
-          </div>
-        </div>
-      </td>
-    </tr>
-  </table>
-</div>
-
-<p align="center" style="margin-top: 20px;">
-  <a href="https://github.com/ducdanh2304" target="_blank"><img src="https://img.shields.io/badge/GitHub-Explore_All_Repositories-181717?style=for-the-badge&logo=github&logoColor=white" alt="View All Repos" height="32"/></a>
-</p>
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3 align="center">⚖️ LexViet: Legal Document Retrieval</h3>
+      <p>
+        Vietnamese legal information retrieval pipeline combining dense embeddings, BM25/TF-IDF sparse search, and multi-stage reranking via weighted Reciprocal Rank Fusion (RRF).
+      </p>
+      <p align="center">
+        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
+        <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" />
+        <img src="https://img.shields.io/badge/Hybrid_RRF-FF8A00?style=flat-square" />
+        <img src="https://img.shields.io/badge/Reranking-C084FC?style=flat-square" />
+      </p>
+      <p align="center">
+        <a href="https://github.com/ducdanh2304">
+          <img src="https://img.shields.io/badge/View_Repository-181717?style=for-the-badge&logo=github&logoColor=white" height="26"/>
+        </a>
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <h3 align="center">🚗 Multi-Vehicle Detection Challenge</h3>
+      <p>
+        1st Place data-centric computer vision pipeline for multi-class vehicle detection. Built around systematic label auditing, error inspection, and mAP optimization.
+      </p>
+      <p align="center">
+        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
+        <img src="https://img.shields.io/badge/YOLO-00FFFF?style=flat-square&logo=ultralytics&logoColor=black" />
+        <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white" />
+        <img src="https://img.shields.io/badge/1st_Place-76B900?style=flat-square" />
+      </p>
+      <p align="center">
+        <a href="https://github.com/ducdanh2304">
+          <img src="https://img.shields.io/badge/View_Repository-181717?style=for-the-badge&logo=github&logoColor=white" height="26"/>
+        </a>
+      </p>
+    </td>
+  </tr>
+</table>
