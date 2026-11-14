@@ -68,14 +68,29 @@
 
 </div>
 
-### <div align="center">🚀 Featured AI & ML Projects</div>
+---
+<!-- Featured Projects -->
+<h2 align="center">🚀 Featured Projects</h2>
 
-<p align="center">
-  <a href="https://github.com/ducdanh2304/LexViet">
-    <img width="48%" src="https://github-readme-stats.vercel.app/api/pin/?username=ducdanh2304&repo=LexViet&theme=gruvbox&bg_color=0D1322&title_color=FF8A00&text_color=CBD5E1&icon_color=FFB03B&border_color=FF8A00&border_radius=12" />
-  </a>
-  &nbsp;
-  <a href="https://github.com/ducdanh2304/Multi-Vehicle-Detection">
-    <img width="48%" src="https://github-readme-stats.vercel.app/api/pin/?username=ducdanh2304&repo=Multi-Vehicle-Detection&theme=gruvbox&bg_color=0D1322&title_color=C084FC&text_color=CBD5E1&icon_color=C084FC&border_color=C084FC&border_radius=12" />
-  </a>
-</p>
+<table align="center" width="100%">
+  <tr>
+    <td width="50%" align="center" valign="top">
+      <a href="https://github.com/ducdanh2304/LexViet">
+        <img
+          src="https://github-readme-stats.vercel.app/api/pin/?username=ducdanh2304&amp;repo=LexViet&amp;bg_color=0B1020&amp;title_color=FF8A00&amp;text_color=E2E8F0&amp;icon_color=FF8A00&amp;border_color=FF8A00&amp;border_radius=12&amp;description_lines_count=2"
+          alt="LexViet GitHub Repository"
+          width="100%"
+        />
+      </a>
+    </td>
+    <td width="50%" align="center" valign="top">
+      <a href="https://github.com/ducdanh2304/Multi-Vehicle-Detection">
+        <img
+          src="https://github-readme-stats.vercel.app/api/pin/?username=ducdanh2304&amp;repo=Multi-Vehicle-Detection&amp;bg_color=0B1020&amp;title_color=C084FC&amp;text_color=E2E8F0&amp;icon_color=C084FC&amp;border_color=C084FC&amp;border_radius=12&amp;description_lines_count=2"
+          alt="Multi-Vehicle-Detection GitHub Repository"
+          width="100%"
+        />
+      </a>
+    </td>
+  </tr>
+</table>
