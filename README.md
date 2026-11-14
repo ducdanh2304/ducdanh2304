@@ -72,41 +72,12 @@
 
 ### <div align="center">🚀 Featured AI & ML Projects</div>
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h3 align="center">⚖️ LexViet: Legal Document Retrieval</h3>
-      <p>
-        Vietnamese legal information retrieval pipeline combining dense embeddings, BM25/TF-IDF sparse search, and multi-stage reranking via weighted Reciprocal Rank Fusion (RRF).
-      </p>
-      <p align="center">
-        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
-        <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" />
-        <img src="https://img.shields.io/badge/Hybrid_RRF-FF8A00?style=flat-square" />
-        <img src="https://img.shields.io/badge/Reranking-C084FC?style=flat-square" />
-      </p>
-      <p align="center">
-        <a href="https://github.com/ducdanh2304">
-          <img src="https://img.shields.io/badge/View_Repository-181717?style=for-the-badge&logo=github&logoColor=white" height="26"/>
-        </a>
-      </p>
-    </td>
-    <td width="50%" valign="top">
-      <h3 align="center">🚗 Multi-Vehicle Detection Challenge</h3>
-      <p>
-        1st Place data-centric computer vision pipeline for multi-class vehicle detection. Built around systematic label auditing, error inspection, and mAP optimization.
-      </p>
-      <p align="center">
-        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
-        <img src="https://img.shields.io/badge/YOLO-00FFFF?style=flat-square&logo=ultralytics&logoColor=black" />
-        <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white" />
-        <img src="https://img.shields.io/badge/1st_Place-76B900?style=flat-square" />
-      </p>
-      <p align="center">
-        <a href="https://github.com/ducdanh2304">
-          <img src="https://img.shields.io/badge/View_Repository-181717?style=for-the-badge&logo=github&logoColor=white" height="26"/>
-        </a>
-      </p>
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <a href="https://github.com/ducdanh2304/TEN_REPO_1">
+    <img width="48%" src="https://github-readme-stats.vercel.app/api/pin/?username=ducdanh2304&repo=TEN_REPO_1&bg_color=0D1322&title_color=FF8A00&text_color=CBD5E1&icon_color=FFB03B&border_color=FF8A00&border_radius=12" />
+  </a>
+  &nbsp;
+  <a href="https://github.com/ducdanh2304/TEN_REPO_2">
+    <img width="48%" src="https://github-readme-stats.vercel.app/api/pin/?username=ducdanh2304&repo=TEN_REPO_2&bg_color=0D1322&title_color=C084FC&text_color=CBD5E1&icon_color=C084FC&border_color=C084FC&border_radius=12" />
+  </a>
+</p>
