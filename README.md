@@ -74,19 +74,19 @@
 <table width="100%">
   <tr>
     <td width="50%" align="center" valign="top">
-      <a href="https://github.com/ducdanh2304/LexViet">
+      <a href="https://github.com/ducdanh2304/lexviet-retrieval">
         <img
-          src="https://github-stats-extended.vercel.app/api/pin/?username=ducdanh2304&amp;repo=LexViet&amp;bg_color=0B1020&amp;title_color=FF8A00&amp;text_color=E2E8F0&amp;icon_color=FF8A00&amp;border_color=FF8A00&amp;border_radius=12"
+          src="https://github-readme-stats.vercel.app/api/pin/?username=ducdanh2304&amp;repo=lexviet-retrieval&amp;bg_color=0B1020&amp;title_color=FF8A00&amp;text_color=E2E8F0&amp;icon_color=FF8A00&amp;border_color=FF8A00&amp;border_radius=12"
           alt="LexViet"
           width="100%"
         />
       </a>
     </td>
     <td width="50%" align="center" valign="top">
-      <a href="https://github.com/ducdanh2304/Multi-Vehicle-Detection">
+      <a href="https://github.com/ducdanh2304/3lc-vehicle-detection-1st-place">
         <img
-          src="https://github-stats-extended.vercel.app/api/pin/?username=ducdanh2304&amp;repo=Multi-Vehicle-Detection&amp;bg_color=0B1020&amp;title_color=C084FC&amp;text_color=E2E8F0&amp;icon_color=C084FC&amp;border_color=C084FC&amp;border_radius=12"
-          alt="Multi-Vehicle-Detection"
+          src="https://github-readme-stats.vercel.app/api/pin/?username=ducdanh2304&amp;repo=3lc-vehicle-detection-1st-place&amp;bg_color=0B1020&amp;title_color=C084FC&amp;text_color=E2E8F0&amp;icon_color=C084FC&amp;border_color=C084FC&amp;border_radius=12"
+          alt="Vehicle Detection"
           width="100%"
         />
       </a>
