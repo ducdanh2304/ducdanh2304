@@ -1,10 +1,6 @@
-<!-- SECTION 01 — HERO / INTRODUCTION a-->
+<!-- SECTION 01 — HERO / INTRODUCTION -->
 <div align="center">
-  <img src="https://raw.githubusercontent.com/ducdanh2304/ducdanh2304/main/assets/hero-banner.svg" alt="Nguyen Duc Danh — AI Systems and Applied ML" width="100%" />
-</div>
-
-<div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&duration=2600&pause=900&color=FFB03B&center=true&vCenter=true&width=760&height=38&lines=Just+do+it.+Keep+building.;Computer+Vision+%26+Deep+Neural+Graphs;Multimodal+AI+%26+Autonomous+Pipelines;Keep+iterating.+Ship+impact.&v=123" alt="Slogan" />
+  <img src="https://raw.githubusercontent.com/ducdanh2304/ducdanh2304/main/assets/hero-banner.svg?v=1000" alt="Nguyen Duc Danh — AI Systems and Applied ML" width="100%" />
 </div>
 
 <div align="center" style="line-height: 0; margin-top: 10px;">
