@@ -25,12 +25,12 @@ hero+=f'<path d="M54 285H570" stroke="{AMBER}" stroke-width="2"/>'+t(54,324,'AI 
 hero+=t(1045,364,'DATA → SIGNAL',12,AMBER,700,'m')
 save('hero-v2.svg',1200,395,hero)
 
-nav=[('EMAIL','↗',AMBER),('LINKEDIN','↗',TEAL),('GITHUB','↗',BLUE),('PUBLICATION','↗',AMBER),('SELECTED WORK','↘',TEAL)]
+nav=[('EMAIL','✉',AMBER),('LINKEDIN','in',TEAL),('GITHUB','{ }',BLUE),('PUBLICATION','↗',AMBER)]
 for label,arrow,color in nav:
-    w=204 if label in ('PUBLICATION','SELECTED WORK') else 166
-    body=f'<rect width="{w}" height="48" rx="7" fill="#112536" stroke="{color}" stroke-opacity=".65"/><path d="M8 8H{w-8}" stroke="{color}" opacity=".42"/>'
-    body+=f'<circle cx="25" cy="25" r="12" fill="none" stroke="{color}" opacity=".65"/>'+t(20,30,arrow,15,color,700)
-    body+=t(48,30,label,13,INK,700,'m')
+    w=185 if label=='PUBLICATION' else 150
+    body=f'<rect width="{w}" height="46" rx="2" fill="{BG}"/><path d="M0 45H{w}" stroke="{color}" stroke-width="2"/>'
+    body+=f'<circle cx="24" cy="22" r="13" fill="{color}" opacity=".18"/>'+t(24,27,arrow,15,color,700,'sans','text-anchor="middle"')
+    body+=t(50,28,label.title(),16,INK,700,'sans')
     save('nav-'+label.lower().replace(' ','-')+'.svg',w,48,body)
 
 def section(name,index,title,sub):
