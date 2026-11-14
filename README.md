@@ -70,15 +70,16 @@
 
 ---
 
+---
+
 ### <div align="center">🚀 Featured AI & ML Projects</div>
 
 <br>
 
-<p align="center">
-  <a href="https://github.com/ducdanh2304" target="_blank"><img src="https://raw.githubusercontent.com/ducdanh2304/ducdanh2304/main/assets/project-lexviet.svg?v=2000" width="49%" alt="LexViet Project"/></a>&nbsp;&nbsp;
-  <a href="https://github.com/ducdanh2304" target="_blank"><img src="https://raw.githubusercontent.com/ducdanh2304/ducdanh2304/main/assets/project-vehicle.svg?v=2000" width="49%" alt="Vehicle Detection Project"/></a>
-</p>
+<div align="center">
+  <img src="https://raw.githubusercontent.com/ducdanh2304/ducdanh2304/main/assets/featured-projects.svg?v=4000" alt="Featured AI & ML Projects" width="100%" />
+</div>
 
-<p align="center" style="margin-top: 14px;">
+<p align="center" style="margin-top: 16px;">
   <a href="https://github.com/ducdanh2304" target="_blank"><img src="https://img.shields.io/badge/GitHub-Explore_All_Repositories-181717?style=for-the-badge&logo=github&logoColor=white" alt="View All Repos" height="32"/></a>
 </p>
