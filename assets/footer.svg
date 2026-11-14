@@ -1,16 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="140" viewBox="0 0 1200 140" role="img" aria-label="footer.svg">
-<style>
-  .mono{font-family:'Courier New',monospace;letter-spacing:2px}
-  .sans{font-family:Arial,Helvetica,sans-serif}
-  .trace{stroke-dasharray:8 11;animation:flow 15s linear infinite}
-  .pulse{animation:pulse 3s ease-in-out infinite}
-  .slow{animation:orbit 24s linear infinite;transform-origin:930px 220px}
-  .appear{animation:appear 1.2s ease-out both}
-  .a2{animation-delay:.25s}.a3{animation-delay:.55s}
-  @keyframes flow{to{stroke-dashoffset:-190}}
-  @keyframes pulse{50%{opacity:.25;transform:scale(.76)}}
-  @keyframes orbit{to{transform:rotate(360deg)}}
-  @keyframes appear{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}
-  @media(prefers-reduced-motion:reduce){*{animation:none!important}}
-</style>
-<rect width="1200" height="140" rx="14" fill="#0b1723"/><path d="M40 70H1140" stroke="#426c77" class="trace"/><circle cx="60" cy="70" r="7" fill="#e5a96d" class="pulse"/><text x="58" y="48" fill="#eef3ff" font-size="25" font-weight="700" class="sans" >KEEP FOLLOWING THE SIGNAL.</text><text x="58" y="108" fill="#9eb5bd" font-size="13" font-weight="500" class="mono" >DANH DUC NGUYEN  /  HCMC  /  2026</text><text x="1010" y="107" fill="#e5a96d" font-size="13" font-weight="500" class="mono" >END / ∞</text></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 158" role="img" aria-label="footer.svg"><title>footer.svg</title><defs><style>text{font-family:Arial,Helvetica,sans-serif}.mono{font-family:Consolas,monospace}</style></defs><rect width="1200" height="158" fill="#101b2b"/><rect x="24" y="24" width="1152" height="110" rx="0" fill="none" stroke="#667587"/><text x="54" y="68" fill="#f4f1e9" font-size="22" font-weight="700" letter-spacing="2" class="">SIGNAL / FORM</text><text x="54" y="102" fill="#aab4bb" font-size="15" font-weight="400" letter-spacing="0" class="">AI engineering  /  vision  /  retrieval  /  multimodal systems</text><path d="M880 80L1140 80" stroke="#55c7bb" stroke-width="2" fill="none"/><circle cx="880" cy="80" r="5" fill="#f08b52"><animate attributeName="cx" values="880;1140;880" dur="12s" repeatCount="indefinite"/></circle></svg>
