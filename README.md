@@ -67,7 +67,6 @@
   <img src="https://img.shields.io/badge/Kaggle-20BEFF?style=flat-square&logo=kaggle&logoColor=white" alt="Kaggle"/>
 
 </div>
-
 ---
 <h2 align="center">🚀 Featured Projects</h2>
 
