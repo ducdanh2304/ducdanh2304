@@ -1,20 +1,24 @@
-# Signal Atlas V2
+# Signal Atlas — editorial system
 
-The profile uses a dark navy editorial system with an amber signal line, teal data paths and modern sans-serif typography. The hero establishes the identity; a logo-led toolkit and three compact project covers carry the portfolio. Each cover has a distinct composition and one dominant result.
+The existing hero remains the entry point. The body now follows a Swiss editorial rhythm: large sans-serif headings, generous breathing room, warm paper and muted blue surfaces, and one strong visual idea per project. The project artwork communicates the subject before the metrics.
 
-## Build and maintenance
+## Project art
 
-- Run `python build_v2.py` to regenerate the SVG assets. `build_cards.py` contains the three project covers. Each SVG is self-contained and has a static state plus optional motion that respects reduced-motion preferences.
-- The README references static assets through immutable GitHub raw URLs because repository-relative SVG references did not display reliably on the profile page.
-- Technology icons come from [Devicon](https://github.com/devicons/devicon) through jsDelivr. Their labels remain visible if an icon is unavailable.
-- The profile no longer displays the public activity chart; GitHub's contribution view remains available on the profile page.
-- Earlier artwork is retained as source history and can be removed in a later cleanup.
+- **LexViet:** a query fans out into legal passages and a selected result. The 0.9428 value is labeled as a competition score, matching the public repository's evaluation caveat.
+- **Multi-Vehicle Detection:** a road scene with detection boxes and one dashed missing-label candidate. Predictions surface candidates; human review accepts corrections.
+- **Multimodal Video Retrieval:** video frames connect to visual, text, OCR and speech representations. The artwork links to the actual Springer publication.
 
-## Evidence
+Each project has a 900 × 270 desktop illustration and a 480 × 390 mobile composition. README `picture` elements select the mobile art at narrow viewport widths. The images have descriptive alt text and are wrapped in direct links. Motion is limited to subtle retrieval traces and stops when reduced motion is requested.
 
-- [LexViet repository](https://github.com/ducdanh2304/lexviet-retrieval)
-- [3LC detection repository](https://github.com/ducdanh2304/3lc-vehicle-detection-1st-place)
+## Toolkit
+
+The README uses recognisable Devicon marks with their names, grouped into Programming, Machine Learning, Computer Vision & NLP, Data & Engineering, and Deployment. Methods without a suitable logo remain text, separate from software brands.
+
+## Sources and maintenance
+
+- [LexViet](https://github.com/ducdanh2304/lexviet-retrieval)
+- [3LC Multi-Vehicle Detection](https://github.com/ducdanh2304/3lc-vehicle-detection-1st-place)
 - [Springer publication](https://link.springer.com/chapter/10.1007/978-981-92-2597-2_36)
-- [3LC Kaggle competition](https://www.kaggle.com/competitions/3-lc-multi-vehicle-detection-challenge)
+- [Devicon](https://github.com/devicons/devicon)
 
-The research artwork links to the publication because no public code repository for that project was verified. LexViet's 0.9428 is labeled as a competition score, since the private evaluator does not define it as Recall@5. The public repository contains a synthetic API demo alongside research artifacts; the cover represents the competition system described in its documentation.
+Run `python build_v2.py` to regenerate the hero, navigation and project art; `build_cards.py` contains the project compositions. Static artwork is referenced through immutable raw GitHub URLs because repository-relative SVGs did not display reliably on this profile. Old assets remain in the repository for history but are not rendered by the README.
