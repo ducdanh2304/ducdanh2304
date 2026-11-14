@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-label="stack.svg">
+<style>
+  .mono{font-family:'Courier New',monospace;letter-spacing:2px}
+  .sans{font-family:Arial,Helvetica,sans-serif}
+  .trace{stroke-dasharray:8 11;animation:flow 15s linear infinite}
+  .pulse{animation:pulse 3s ease-in-out infinite}
+  .slow{animation:orbit 24s linear infinite;transform-origin:930px 220px}
+  .appear{animation:appear 1.2s ease-out both}
+  .a2{animation-delay:.25s}.a3{animation-delay:.55s}
+  @keyframes flow{to{stroke-dashoffset:-190}}
+  @keyframes pulse{50%{opacity:.25;transform:scale(.76)}}
+  @keyframes orbit{to{transform:rotate(360deg)}}
+  @keyframes appear{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}
+  @media(prefers-reduced-motion:reduce){*{animation:none!important}}
+</style>
+<rect width="1200" height="420" rx="16" fill="#0b1723"/><path d="M0 7H1200" stroke="#e5a96d" stroke-width="6"/><text x="42" y="55" fill="#e5a96d" font-size="15" font-weight="700" class="mono" >02 / TECHNICAL UNIVERSE</text><text x="42" y="105" fill="#eef3ff" font-size="36" font-weight="700" class="sans" >From data to a working system.</text><path d="M95 251H1090" stroke="#426c77" stroke-width="3" class="trace"/><rect x="78" y="144" width="314" height="223" rx="10" fill="#102330" stroke="#62d9cc" stroke-opacity=".48"/><circle cx="104" cy="251" r="8" fill="#62d9cc" class="pulse"/><text x="102" y="184" fill="#62d9cc" font-size="18" font-weight="700" class="mono" >01</text><text x="102" y="215" fill="#eef3ff" font-size="25" font-weight="700" class="sans" >PERCEPTION</text><text x="102" y="286" fill="#aec5ce" font-size="17" font-weight="400" class="sans" >PyTorch / OpenCV</text><text x="102" y="325" fill="#aec5ce" font-size="17" font-weight="400" class="sans" >YOLO / Transformers</text><rect x="430" y="144" width="314" height="223" rx="10" fill="#102330" stroke="#e5a96d" stroke-opacity=".48"/><circle cx="456" cy="251" r="8" fill="#e5a96d" class="pulse"/><text x="454" y="184" fill="#e5a96d" font-size="18" font-weight="700" class="mono" >02</text><text x="454" y="215" fill="#eef3ff" font-size="25" font-weight="700" class="sans" >RETRIEVAL</text><text x="454" y="286" fill="#aec5ce" font-size="17" font-weight="400" class="sans" >Python / SQL · SQLite</text><text x="454" y="325" fill="#aec5ce" font-size="17" font-weight="400" class="sans" >LightGBM / Reranking</text><rect x="782" y="144" width="314" height="223" rx="10" fill="#102330" stroke="#9ba9f8" stroke-opacity=".48"/><circle cx="808" cy="251" r="8" fill="#9ba9f8" class="pulse"/><text x="806" y="184" fill="#9ba9f8" font-size="18" font-weight="700" class="mono" >03</text><text x="806" y="215" fill="#eef3ff" font-size="25" font-weight="700" class="sans" >DELIVERY</text><text x="806" y="286" fill="#aec5ce" font-size="17" font-weight="400" class="sans" >FastAPI / Docker</text><text x="806" y="325" fill="#aec5ce" font-size="17" font-weight="400" class="sans" >Git · Linux / ONNX</text><text x="44" y="397" fill="#6e8994" font-size="12" font-weight="500" class="mono" >A WORKFLOW, NOT A LOGO COLLECTION</text></svg>
