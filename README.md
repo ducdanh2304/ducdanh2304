@@ -46,7 +46,7 @@ I’m preparing for a **Fresher AI Engineer** role. I like the part of engineeri
 
 ## 04 / Public activity
 
-<p align="center"><a href="https://github.com/ducdanh2304?tab=overview"><img src="https://raw.githubusercontent.com/ducdanh2304/ducdanh2304/main/assets/activity.svg?asof=20261114040245" alt="Last 30 days of public GitHub events, generated daily from the GitHub API. Open the full contribution graph." width="100%" /></a></p>
+<p align="center"><a href="https://github.com/ducdanh2304?tab=overview"><img src="https://raw.githubusercontent.com/ducdanh2304/ducdanh2304/main/assets/activity.svg?asof=20261114040333" alt="Last 30 days of public GitHub events, generated daily from the GitHub API. Open the full contribution graph." width="100%" /></a></p>
 
 <p align="center"><sub>Shows public events returned by GitHub’s API. The <a href="https://github.com/ducdanh2304?tab=overview">contribution graph</a> contains the fuller history.</sub></p>
 
