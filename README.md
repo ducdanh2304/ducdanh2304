@@ -13,21 +13,46 @@
 
 ---
 
-### `02 // About Me & Core Expertise`
+### <div align="center">⚡ 02 // About Me & Core Engineering</div>
 
-<div align="justify" style="color: #CBD5E1; line-height: 1.6;">
-  👋 Hi, I'm <b>Nguyen Duc Danh</b> — a Computer Science undergraduate based in Ho Chi Minh City, deeply passionate about building production-grade AI systems. My core expertise focuses on <b>Computer Vision (CV)</b>, <b>NLP & Information Retrieval</b>, <b>Multimodal LLMs</b>, and <b>Agentic AI pipelines</b>. I approach machine learning with a rigorous, metric-driven engineering mindset—prioritizing data-centric quality, leak-free validation, and optimized inference architectures over unguided trial-and-error.
+<div align="center" style="max-width: 900px; margin: 0 auto; color: #CBD5E1; font-size: 15px; line-height: 1.6;">
+  👋 Hi, I'm <b>Nguyen Duc Danh</b> — a Computer Science undergraduate based in Ho Chi Minh City, specializing in building production-grade AI systems. My core engineering focus lies in <b>Computer Vision (CV)</b>, <b>NLP & Information Retrieval</b>, <b>Multimodal LLMs</b>, and <b>Agentic AI workflows</b>. I approach machine learning through a rigorous, metric-driven lens—prioritizing data-centric optimization, leak-free validation architectures, and robust inference pipelines.
 </div>
+
+<br>
 
 ---
 
-### `03 // Technical Arsenal`
+### <div align="center">🛠️ 03 // Tech Stack & Ecosystem</div>
 
-| Domain | Core Stack & Technologies | Focus & Methodology |
-| :--- | :--- | :--- |
-| **🧠 Deep Learning & VLM** | `PyTorch` • `Qwen2.5-VL` • `QLoRA` • `FlashAttention-2` • `BF16` | Multimodal pipelines, taxonomy-aware candidate ranking, efficient fine-tuning. |
-| **👁️ Computer Vision** | `Cascade R-CNN` • `WBF` • `3LC` • `OpenCV` | Data-centric label auditing, multiscale TTA, high-IoU optimization. |
-| **🔍 NLP & Retrieval** | `BAAI/bge-m3` • `Jina Reranker` • `BM25` • `underthesea` • `RRF` | Multi-signal Reciprocal Rank Fusion ensembles, Vietnamese legal IR. |
-| **⚙️ Engineering & MLOps** | `Python` • `FastAPI` • `Docker` • `Ubuntu Linux` • `Git` • `RTX 3090` | Containerized microservices, local GPU training setups, clean architecture. |
+<div align="center">
+
+  <!-- Core Languages & Frameworks -->
+  <p><b>Languages & Core Frameworks</b></p>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"/>
+  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" alt="PyTorch"/>
+  <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white" alt="OpenCV"/>
+  <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI"/>
+  
+  <br><br>
+
+  <!-- AI, VLM & NLP Ecosystem -->
+  <p><b>AI, Multimodal LLMs & Retrieval</b></p>
+  <img src="https://img.shields.io/badge/Hugging%20Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black" alt="HuggingFace"/>
+  <img src="https://img.shields.io/badge/Qwen-61DAFB?style=flat-square&logo=databricks&logoColor=black" alt="Qwen VLM"/>
+  <img src="https://img.shields.io/badge/Transformers-FF8A00?style=flat-square&logo=huggingface&logoColor=white" alt="Transformers"/>
+  <img src="https://img.shields.io/badge/Vector%20Search-8B5CF6?style=flat-square&logo=qdrant&logoColor=white" alt="Vector DB"/>
+
+  <br><br>
+
+  <!-- MLOps & Infrastructure -->
+  <p><b>MLOps, Hardware & Infrastructure</b></p>
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker"/>
+  <img src="https://img.shields.io/badge/Ubuntu-E95420?style=flat-square&logo=ubuntu&logoColor=white" alt="Ubuntu"/>
+  <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git"/>
+  <img src="https://img.shields.io/badge/NVIDIA%20RTX%203090-76B900?style=flat-square&logo=nvidia&logoColor=white" alt="NVIDIA GPU"/>
+  <img src="https://img.shields.io/badge/Kaggle-20BEFF?style=flat-square&logo=kaggle&logoColor=white" alt="Kaggle"/>
+
+</div>
 
 ---
