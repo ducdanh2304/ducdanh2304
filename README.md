@@ -70,14 +70,10 @@
 
 ---
 
-### <div align="center">🚀 Featured AI & ML Projects</div>
+### <div align="center">📊 GitHub Analytics & Top Languages</div>
 
 <p align="center">
-  <a href="https://github.com/ducdanh2304/TEN_REPO_1">
-    <img width="48%" src="https://github-readme-stats.vercel.app/api/pin/?username=ducdanh2304&repo=TEN_REPO_1&theme=gruvbox&bg_color=0D1322&border_color=FF8A00" />
-  </a>
+  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=ducdanh2304&show_icons=true&theme=gruvbox&bg_color=0D1322&title_color=FF8A00&text_color=CBD5E1&icon_color=FFB03B&border_color=FF8A00&border_radius=12" />
   &nbsp;
-  <a href="https://github.com/ducdanh2304/TEN_REPO_2">
-    <img width="48%" src="https://github-readme-stats.vercel.app/api/pin/?username=ducdanh2304&repo=TEN_REPO_2&theme=gruvbox&bg_color=0D1322&border_color=C084FC" />
-  </a>
+  <img width="48%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ducdanh2304&layout=compact&theme=gruvbox&bg_color=0D1322&title_color=C084FC&text_color=CBD5E1&border_color=C084FC&border_radius=12" />
 </p>
