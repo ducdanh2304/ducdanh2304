@@ -8,11 +8,13 @@ exits without touching the previously committed SVG.
 import datetime as dt
 import json
 import os
+import re
 from pathlib import Path
 from urllib.request import Request, urlopen
 
 USER = "ducdanh2304"
 OUT = Path(__file__).parent / "assets" / "activity.svg"
+README = Path(__file__).parent / "README.md"
 TODAY = dt.datetime.now(dt.timezone.utc).date()
 START = TODAY - dt.timedelta(days=29)
 counts = {START + dt.timedelta(days=i): 0 for i in range(30)}
@@ -56,4 +58,15 @@ svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="250" view
 </svg>'''
 OUT.parent.mkdir(parents=True, exist_ok=True)
 OUT.write_text(svg, encoding="utf-8")
+if README.exists():
+    stamp = dt.datetime.now(dt.timezone.utc).strftime("%Y%m%d%H%M%S")
+    readme = README.read_text(encoding="utf-8")
+    refreshed = re.sub(
+        r"(https://raw\.githubusercontent\.com/ducdanh2304/ducdanh2304/)[^/]+(/assets/activity\.svg)(?:\?asof=\d+)?",
+        rf"\g<1>main\g<2>?asof={stamp}",
+        readme,
+    )
+    if refreshed == readme:
+        raise RuntimeError("Activity image URL not found in README")
+    README.write_text(refreshed, encoding="utf-8")
 print(f"Wrote {OUT} from {total} public events")
