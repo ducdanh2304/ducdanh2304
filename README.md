@@ -1,6 +1,6 @@
 <!-- SECTION 01 — HERO / INTRODUCTION -->
 <div align="center">
-  <img src="./assets/hero-banner.svg?v=2" alt="Nguyen Duc Danh — AI Systems and Applied ML" width="100%" />
+  <img src="https://raw.githubusercontent.com/ducdanh2304/ducdanh2304/main/assets/hero-banner.svg" alt="Nguyen Duc Danh — AI Systems and Applied ML" width="100%" />
 </div>
 
 <div align="center">
@@ -10,7 +10,7 @@
 </div>
 
 <div align="center">
-  <img src="./assets/contact-dock.svg?v=2" alt="Contact Nguyen Duc Danh: Email, LinkedIn, GitHub" width="88%" />
+  <img src="./assets/contact-dock.svg" alt="Contact Nguyen Duc Danh: Email, LinkedIn, GitHub" width="88%" />
 </div>
 
 <br />
