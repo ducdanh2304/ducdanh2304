@@ -1,0 +1,171 @@
+<svg width="1200" height="310" viewBox="0 0 1200 310" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Nguyen Duc Danh — AI Systems &amp; Applied Research">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="1200" y2="310" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0B1020" />
+      <stop offset="50%" stop-color="#0F172A" />
+      <stop offset="100%" stop-color="#0B1020" />
+    </linearGradient>
+
+    <linearGradient id="titleGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#E8EEFF" />
+      <stop offset="70%" stop-color="#CBD5E1" />
+      <stop offset="100%" stop-color="#93C5FD" />
+    </linearGradient>
+
+    <linearGradient id="accentGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#4F8CFF" />
+      <stop offset="50%" stop-color="#60A5FA" />
+      <stop offset="100%" stop-color="#8B5CF6" />
+    </linearGradient>
+
+    <linearGradient id="coreRing" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#60A5FA" />
+      <stop offset="100%" stop-color="#8B5CF6" />
+    </linearGradient>
+
+    <radialGradient id="orbBlue" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0%" stop-color="#4F8CFF" stop-opacity="0.22" />
+      <stop offset="100%" stop-color="#4F8CFF" stop-opacity="0" />
+    </radialGradient>
+
+    <radialGradient id="orbViolet" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0%" stop-color="#8B5CF6" stop-opacity="0.24" />
+      <stop offset="100%" stop-color="#8B5CF6" stop-opacity="0" />
+    </radialGradient>
+
+    <pattern id="dotMatrix" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#4F8CFF" fill-opacity="0.14" />
+    </pattern>
+
+    <clipPath id="frameClip">
+      <rect x="1" y="1" width="1198" height="308" rx="16" />
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#frameClip)">
+    <!-- Background & Dot Matrix -->
+    <rect width="1200" height="310" fill="url(#bgGrad)" />
+    <rect width="1200" height="310" fill="url(#dotMatrix)" />
+
+    <!-- Ambient Glows -->
+    <circle cx="980" cy="155" r="240" fill="url(#orbViolet)">
+      <animate attributeName="r" values="225;255;225" dur="7s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="840" cy="90" r="190" fill="url(#orbBlue)">
+      <animate attributeName="r" values="180;210;180" dur="8.5s" repeatCount="indefinite" />
+    </circle>
+
+    <!-- Top Spectrum Line -->
+    <rect x="0" y="0" width="1200" height="3" fill="url(#accentGrad)" />
+
+    <!-- RIGHT SIDE: Multimodal & Agentic Architecture Schematic -->
+    <g transform="translate(740, 28)">
+      <!-- Outer HUD Frame -->
+      <rect x="0" y="0" width="415" height="254" rx="12" fill="#111A30" fill-opacity="0.55" stroke="#4F8CFF" stroke-opacity="0.22" />
+      <line x1="0" y1="28" x2="415" y2="28" stroke="#4F8CFF" stroke-opacity="0.18" />
+      <circle cx="16" cy="14" r="3.5" fill="#4F8CFF" />
+      <circle cx="28" cy="14" r="3.5" fill="#8B5CF6" />
+      <circle cx="40" cy="14" r="3.5" fill="#60A5FA" fill-opacity="0.5" />
+      <text x="398" y="18" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10" letter-spacing="1" fill="#A6B3D1">
+        SYS // MULTIMODAL_AGENT_GRAPH
+      </text>
+
+      <!-- Input Modality Nodes (Left Column of Diagram) -->
+      <!-- Node 1: Vision -->
+      <rect x="22" y="50" width="94" height="32" rx="6" fill="#0B1020" stroke="#60A5FA" stroke-opacity="0.6" />
+      <text x="69" y="70" text-anchor="middle" font-family="ui-monospace, monospace" font-size="11" font-weight="600" fill="#60A5FA">VISION</text>
+
+      <!-- Node 2: NLP / IR -->
+      <rect x="22" y="114" width="94" height="32" rx="6" fill="#0B1020" stroke="#4F8CFF" stroke-opacity="0.6" />
+      <text x="69" y="134" text-anchor="middle" font-family="ui-monospace, monospace" font-size="11" font-weight="600" fill="#93C5FD">NLP · IR</text>
+
+      <!-- Node 3: Audio / OCR -->
+      <rect x="22" y="178" width="94" height="32" rx="6" fill="#0B1020" stroke="#A78BFA" stroke-opacity="0.6" />
+      <text x="69" y="198" text-anchor="middle" font-family="ui-monospace, monospace" font-size="11" font-weight="600" fill="#C4B5FD">VLM · OCR</text>
+
+      <!-- Routing Curves to Agent Core -->
+      <path d="M116,66 C165,66 175,130 218,130" stroke="#60A5FA" stroke-opacity="0.45" stroke-width="1.5" fill="none" />
+      <path d="M116,130 L218,130" stroke="#4F8CFF" stroke-opacity="0.55" stroke-width="1.5" fill="none" />
+      <path d="M116,194 C165,194 175,130 218,130" stroke="#A78BFA" stroke-opacity="0.45" stroke-width="1.5" fill="none" />
+
+      <!-- Output Path from Agent Core to Execution -->
+      <path d="M294,130 L332,130" stroke="url(#accentGrad)" stroke-width="2" fill="none" />
+      <polygon points="331,126 339,130 331,134" fill="#A78BFA" />
+
+      <!-- Animated Data Packets -->
+      <circle r="3" fill="#60A5FA">
+        <animateMotion dur="3.2s" repeatCount="indefinite" path="M116,66 C165,66 175,130 218,130" />
+      </circle>
+      <circle r="3" fill="#E8EEFF">
+        <animateMotion dur="2.6s" repeatCount="indefinite" path="M116,130 L218,130" />
+      </circle>
+      <circle r="3" fill="#C4B5FD">
+        <animateMotion dur="3.6s" repeatCount="indefinite" path="M116,194 C165,194 175,130 218,130" />
+      </circle>
+
+      <!-- Center Hub: Agentic Reasoning Core -->
+      <circle cx="256" cy="130" r="38" fill="#0B1020" stroke="url(#coreRing)" stroke-width="2" />
+      <circle cx="256" cy="130" r="44" stroke="#8B5CF6" stroke-opacity="0.28" stroke-width="1" stroke-dasharray="4 4">
+        <animateTransform attributeName="transform" type="rotate" from="0 256 130" to="360 256 130" dur="18s" repeatCount="indefinite" />
+      </circle>
+      <text x="256" y="126" text-anchor="middle" font-family="ui-monospace, monospace" font-size="10.5" font-weight="700" fill="#E8EEFF">AGENTIC</text>
+      <text x="256" y="140" text-anchor="middle" font-family="ui-monospace, monospace" font-size="9.5" fill="#A78BFA">CORE</text>
+
+      <!-- Output Node: Action / Inference -->
+      <rect x="340" y="106" width="56" height="48" rx="8" fill="#8B5CF6" fill-opacity="0.18" stroke="#A78BFA" stroke-width="1.4" />
+      <text x="368" y="127" text-anchor="middle" font-family="ui-monospace, monospace" font-size="9.5" font-weight="700" fill="#E8EEFF">EXEC</text>
+      <text x="368" y="140" text-anchor="middle" font-family="ui-monospace, monospace" font-size="8.5" fill="#C4B5FD">99.9%</text>
+
+      <!-- Bottom Telemetry Bar inside HUD -->
+      <line x1="16" y1="226" x2="399" y2="226" stroke="#4F8CFF" stroke-opacity="0.15" />
+      <text x="20" y="242" font-family="ui-monospace, monospace" font-size="9.5" fill="#60A5FA">LATENCY: LOW</text>
+      <text x="207" y="242" text-anchor="middle" font-family="ui-monospace, monospace" font-size="9.5" fill="#A6B3D1">FUSION: RRF + VLM</text>
+      <text x="395" y="242" text-anchor="end" font-family="ui-monospace, monospace" font-size="9.5" fill="#A78BFA">STATE: ACTIVE</text>
+    </g>
+
+    <!-- LEFT SIDE: Clean, High-Impact Editorial Identity -->
+    <g transform="translate(52, 46)">
+      <!-- Minimal Technical Tag -->
+      <rect x="0" y="0" width="286" height="26" rx="6" fill="#111A30" stroke="#4F8CFF" stroke-opacity="0.45" />
+      <rect x="10" y="9" width="8" height="8" rx="2" fill="#60A5FA">
+        <animate attributeName="opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite" />
+      </rect>
+      <text x="26" y="17" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11" font-weight="700" letter-spacing="1.4" fill="#93C5FD">
+        AI SYSTEMS & APPLIED ML
+      </text>
+
+      <!-- Name -->
+      <text x="0" y="82" font-family="-apple-system, BlinkMacSystemFont, &#39;Segoe UI&#39;, Roboto, Helvetica, Arial, sans-serif" font-size="46" font-weight="800" letter-spacing="1.2" fill="url(#titleGrad)">
+        NGUYEN DUC DANH
+      </text>
+
+      <!-- Domain Stack Line (Replacing generic slogan) -->
+      <text x="0" y="122" font-family="-apple-system, BlinkMacSystemFont, &#39;Segoe UI&#39;, Roboto, Helvetica, Arial, sans-serif" font-size="20" font-weight="700" fill="url(#accentGrad)">
+        Vision · Language · Multimodal · Agentic AI
+      </text>
+
+      <!-- Crisp Engineering Value Proposition -->
+      <text x="0" y="156" font-family="-apple-system, BlinkMacSystemFont, &#39;Segoe UI&#39;, Roboto, Helvetica, Arial, sans-serif" font-size="14.5" fill="#A6B3D1">
+        Architecting end-to-end perception, retrieval, and autonomous reasoning pipelines.
+      </text>
+
+      <!-- Minimal Pillar Pills -->
+      <g transform="translate(0, 184)" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11" font-weight="600">
+        <rect x="0" y="0" width="136" height="26" rx="5" fill="#111A30" stroke="#4F8CFF" stroke-opacity="0.35" />
+        <text x="68" y="17" text-anchor="middle" fill="#60A5FA">COMPUTER VISION</text>
+
+        <rect x="148" y="0" width="124" height="26" rx="5" fill="#111A30" stroke="#60A5FA" stroke-opacity="0.35" />
+        <text x="210" y="17" text-anchor="middle" fill="#93C5FD">NLP & RETRIEVAL</text>
+
+        <rect x="284" y="0" width="120" height="26" rx="5" fill="#111A30" stroke="#8B5CF6" stroke-opacity="0.4" />
+        <text x="344" y="17" text-anchor="middle" fill="#C4B5FD">MULTIMODAL AI</text>
+
+        <rect x="416" y="0" width="114" height="26" rx="5" fill="#111A30" stroke="#A78BFA" stroke-opacity="0.4" />
+        <text x="473" y="17" text-anchor="middle" fill="#E8EEFF">AGENTIC FLOWS</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- Outer Frame -->
+  <rect x="0.5" y="0.5" width="1199" height="309" rx="16" stroke="#4F8CFF" stroke-opacity="0.32" />
+</svg>
