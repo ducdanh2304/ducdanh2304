@@ -1,4 +1,4 @@
-<p align="center"><img src="./assets/banner.svg" alt="Danh Duc Nguyen — Computer Vision and Vietnamese NLP" width="100%" /></p>
+<p align="center"><img src="https://raw.githubusercontent.com/ducdanh2304/ducdanh2304/5e59364bb3c07955f8ec695ba65fc1ced456ce70/assets/banner.svg" alt="Danh Duc Nguyen — Computer Vision and Vietnamese NLP" width="100%" /></p>
 
 <p align="center"><strong>Computer Vision · Information Retrieval · Vietnamese NLP</strong><br />Student at the University of Information Technology, VNU-HCM, Vietnam.</p>
 
