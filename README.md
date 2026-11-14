@@ -69,16 +69,15 @@
 </div>
 
 ---
-<!-- Featured Projects -->
 <h2 align="center">🚀 Featured Projects</h2>
 
-<table align="center" width="100%">
+<table width="100%">
   <tr>
     <td width="50%" align="center" valign="top">
       <a href="https://github.com/ducdanh2304/LexViet">
         <img
-          src="https://github-readme-stats.vercel.app/api/pin/?username=ducdanh2304&amp;repo=LexViet&amp;bg_color=0B1020&amp;title_color=FF8A00&amp;text_color=E2E8F0&amp;icon_color=FF8A00&amp;border_color=FF8A00&amp;border_radius=12&amp;description_lines_count=2"
-          alt="LexViet GitHub Repository"
+          src="https://github-stats-extended.vercel.app/api/pin/?username=ducdanh2304&amp;repo=LexViet&amp;bg_color=0B1020&amp;title_color=FF8A00&amp;text_color=E2E8F0&amp;icon_color=FF8A00&amp;border_color=FF8A00&amp;border_radius=12"
+          alt="LexViet"
           width="100%"
         />
       </a>
@@ -86,8 +85,8 @@
     <td width="50%" align="center" valign="top">
       <a href="https://github.com/ducdanh2304/Multi-Vehicle-Detection">
         <img
-          src="https://github-readme-stats.vercel.app/api/pin/?username=ducdanh2304&amp;repo=Multi-Vehicle-Detection&amp;bg_color=0B1020&amp;title_color=C084FC&amp;text_color=E2E8F0&amp;icon_color=C084FC&amp;border_color=C084FC&amp;border_radius=12&amp;description_lines_count=2"
-          alt="Multi-Vehicle-Detection GitHub Repository"
+          src="https://github-stats-extended.vercel.app/api/pin/?username=ducdanh2304&amp;repo=Multi-Vehicle-Detection&amp;bg_color=0B1020&amp;title_color=C084FC&amp;text_color=E2E8F0&amp;icon_color=C084FC&amp;border_color=C084FC&amp;border_radius=12"
+          alt="Multi-Vehicle-Detection"
           width="100%"
         />
       </a>
