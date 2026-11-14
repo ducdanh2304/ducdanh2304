@@ -4,27 +4,11 @@
 </div>
 
 <div align="center">
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=17&duration=2600&pause=850&color=60A5FA&center=true&vCenter=true&width=760&height=34&lines=Computer+Vision+%26+Data-Centric+AI+Systems;Natural+Language+Processing+%26+Hybrid+Retrieval;Multimodal+Semantic+Search+%26+Vision-Language+Models;Agentic+AI+Workflows+%26+Autonomous+Pipelines" alt="AI Engineering Focus Areas" />
-  </a>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&duration=2600&pause=900&color=FFB03B&center=true&vCenter=true&width=760&height=38&lines=Just+do+it.+Keep+building.;Computer+Vision+%26+Deep+Neural+Graphs;Multimodal+AI+%26+Autonomous+Pipelines;Keep+iterating.+Ship+impact.&v=123" alt="Slogan" />
 </div>
 
-<div align="center">
-  <a href="mailto:danhnd.work@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" height="38"/>
-  </a>
-  &nbsp;&nbsp;
-  <a href="https://linkedin.com/in/danhnd2304" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" height="38"/>
-  </a>
-  &nbsp;&nbsp;
-  <a href="https://github.com/ducdanh2304" target="_blank">
-    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" height="38"/>
-  </a>
-  &nbsp;&nbsp;
-  <a href="https://www.facebook.com/nguyen.shari.7/" target="_blank">
-    <img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" alt="Facebook" height="38"/>
-  </a>
+<div align="center" style="line-height: 0; margin-top: 10px;">
+  <a href="mailto:danhnd.work@gmail.com"><img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" height="36"/></a>&nbsp;<a href="https://linkedin.com/in/danhnd2304" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" height="36"/></a>&nbsp;<a href="https://github.com/ducdanh2304" target="_blank"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" height="36"/></a>&nbsp;<a href="https://www.facebook.com/nguyen.shari.7/" target="_blank"><img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" alt="Facebook" height="36"/></a>
 </div>
 
 <br />
