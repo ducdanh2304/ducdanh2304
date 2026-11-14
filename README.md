@@ -72,6 +72,8 @@
 
 ---
 
+---
+
 ### <div align="center">🚀 Featured AI & ML Projects</div>
 
 <br>
