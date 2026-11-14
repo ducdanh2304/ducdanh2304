@@ -42,40 +42,8 @@ section('section-work.svg','02','Selected work','THREE SIGNALS')
 section('section-paper.svg','03','Research note','FIRST AUTHOR / 2026')
 section('section-proof.svg','04','Recognition','SELECTED RESULTS')
 
-def diagram(name,title,metric,subtitle,steps,accent):
-    b=f'<rect width="1200" height="190" rx="9" fill="#0d1d2b"/><path d="M0 1H1200" stroke="{accent}" stroke-width="3"/>'
-    b+=t(29,33,title,13,accent,700,'m')+t(29,87,metric,41,INK,800)+t(29,119,subtitle,15,MUTED)
-    x0=29; widths=[185,185,185,185]
-    for i,s in enumerate(steps):
-        x=x0+i*198
-        b+=f'<rect x="{x}" y="139" width="{widths[i]}" height="33" rx="4" fill="#172d3d" stroke="{accent}" stroke-opacity=".36"/>'
-        b+=t(x+10,160,s,13,INK,600,'m')
-        if i<3:b+=t(x+188,161,'›',20,accent,700)
-    if name.startswith('lexviet'):
-        # Query fans out to documents, then converges on one ranked passage.
-        b+=t(822,31,'QUERY',10,accent,700,'m')+f'<circle cx="845" cy="75" r="15" fill="none" stroke="{accent}"/>'
-        for i,y in enumerate((43,68,93)):
-            b+=f'<path d="M861 75L948 {y}" stroke="{accent}" opacity=".48" class="dash"/><rect x="948" y="{y-14}" width="68" height="25" rx="2" fill="none" stroke="{accent}" opacity=".55"/>'
-            b+=f'<path d="M958 {y-5}h42M958 {y+2}h27" stroke="{accent}" opacity=".5"/>'
-            b+=f'<path d="M1017 {y}L1080 68" stroke="{accent}" opacity=".42"/>'
-        b+=f'<rect x="1080" y="50" width="86" height="36" rx="3" fill="{accent}" opacity=".17" stroke="{accent}"/>'+t(1092,73,'TOP 5',14,accent,700,'m')
-    elif name.startswith('detection'):
-        b+=f'<rect x="832" y="27" width="314" height="92" rx="3" fill="#162b37" stroke="#486476"/>'
-        b+=f'<path d="M832 96H1146M862 96l40-69M1117 96l-40-69" stroke="#486476" opacity=".6"/>'
-        for x,y,w,h in ((852,51,76,47),(948,39,92,58),(1060,54,64,41)):
-            b+=f'<rect x="{x}" y="{y}" width="{w}" height="{h}" fill="none" stroke="{accent}" stroke-width="2" class="dash"/>'
-        b+=t(1020,30,'VEHICLE / BOXES',10,accent,700,'m')
-    else:
-        for i in range(4):
-            x=830+i*78
-            b+=f'<rect x="{x}" y="42" width="68" height="58" rx="2" fill="#152b3c" stroke="{accent}" opacity=".78"/>'
-            b+=f'<path d="M{x+8} 77l15-19 13 11 15-20 9 13" fill="none" stroke="{accent}" opacity=".65"/>'
-            b+=f'<circle cx="{x+10}" cy="108" r="2" fill="{accent}"/><circle cx="{x+58}" cy="108" r="2" fill="{accent}"/>'
-        b+=t(925,31,'VIDEO → KEYFRAMES',10,accent,700,'m')
-    save(name,1200,190,b)
-diagram('lexviet-v2.svg','LEGAL DOCUMENT RETRIEVAL','94.28% Recall@5','2,080 private queries  ·  596,062 legal chunks',['11 signals','WRRF fusion','LightGBM','Jina rerank'],TEAL)
-diagram('detection-v2.svg','3LC MULTI-VEHICLE DETECTION','1st PLACE','0.95099 public  /  0.94052 private mAP@0.5',['Label audit','61 revisions','YOLOv8n','NMS tuning'],AMBER)
-diagram('video-v2.svg','MULTIMODAL VIDEO RETRIEVAL','~600K KEYFRAMES','1,478 videos  ·  300+ hours  ·  Vietnamese retrieval',['CLIP / BEiT-3','Captions','Audio / OCR','Fusion'],BLUE)
+from build_cards import build_cards
+build_cards(OUT)
 
 b=f'<rect width="1200" height="118" rx="8" fill="#0d1d2b"/><path d="M0 0H1200" stroke="{AMBER}" stroke-width="3"/>'
 for i,(num,line,small,c) in enumerate([('01','3LC CHALLENGE','1ST PLACE',AMBER),('19','UIT DATA SCIENCE','TOP 19',TEAL),('05','HCMC AI CHALLENGE','TOP 5 / 600+ TEAMS',BLUE)]):
