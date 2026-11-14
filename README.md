@@ -40,11 +40,11 @@ Hybrid and dense retrieval · Learning to rank · Reranking · Object detection 
 
 ## Selected Work
 
-<p align="center"><a href="https://github.com/ducdanh2304/lexviet-retrieval"><img src="https://raw.githubusercontent.com/ducdanh2304/ducdanh2304/109215ca0d2e933b3381d9d50f089ee9d3c66a0d/assets/lexviet-v2.svg" width="100%" alt="LexViet — 0.9428 competition score across 2,080 private queries. Eleven-signal retrieval, Weighted RRF, two-stage LightGBM LambdaMART and six-view Jina reranking." /></a></p>
+<p align="center"><a href="https://github.com/ducdanh2304/lexviet-retrieval"><img src="https://raw.githubusercontent.com/ducdanh2304/ducdanh2304/e500b9b6c280543785f5f7b4c9bc56307d12f257/assets/lexviet-v2.svg" width="100%" alt="LexViet — 0.9428 competition score across 2,080 private queries. Eleven-signal retrieval, Weighted RRF, two-stage LightGBM LambdaMART and six-view Jina reranking." /></a></p>
 
-<p align="center"><a href="https://github.com/ducdanh2304/3lc-vehicle-detection-1st-place"><img src="https://raw.githubusercontent.com/ducdanh2304/ducdanh2304/109215ca0d2e933b3381d9d50f089ee9d3c66a0d/assets/detection-v2.svg" width="100%" alt="Multi-Vehicle Detection — first place among 97 teams, 0.94052 private mAP at 0.5. Model predictions flag missing-label candidates for human verification." /></a></p>
+<p align="center"><a href="https://github.com/ducdanh2304/3lc-vehicle-detection-1st-place"><img src="https://raw.githubusercontent.com/ducdanh2304/ducdanh2304/e500b9b6c280543785f5f7b4c9bc56307d12f257/assets/detection-v2.svg" width="100%" alt="Multi-Vehicle Detection — first place among 97 teams, 0.94052 private mAP at 0.5. Model predictions flag missing-label candidates for human verification." /></a></p>
 
-<p align="center"><a href="https://link.springer.com/chapter/10.1007/978-981-92-2597-2_36"><img src="https://raw.githubusercontent.com/ducdanh2304/ducdanh2304/109215ca0d2e933b3381d9d50f089ee9d3c66a0d/assets/video-v2.svg" width="100%" alt="Multimodal Video Retrieval — first-author research over 1,478 videos and approximately 600,000 keyframes. Open the published paper." /></a></p>
+<p align="center"><a href="https://link.springer.com/chapter/10.1007/978-981-92-2597-2_36"><img src="https://raw.githubusercontent.com/ducdanh2304/ducdanh2304/e500b9b6c280543785f5f7b4c9bc56307d12f257/assets/video-v2.svg" width="100%" alt="Multimodal Video Retrieval — first-author research over 1,478 videos and approximately 600,000 keyframes. Open the published paper." /></a></p>
 
 ---
 
