@@ -76,5 +76,50 @@ def moodboards():
         for j,c in enumerate(['#080B1A','#2563EB','#6D28D9','#A78BFA','#22D3EE']): b+=f'<rect x="{40+j*180}" y="360" width="164" height="20" fill="{c}"/>'
         (out/f'concept-{i+1}.svg').write_text(svg(1000,420,b,name),encoding='utf-8')
 
+def retrieval_scene():
+    b=''
+    # Eleven actual retrieval-signal tracks converge before learned ranking.
+    for i in range(11):
+        y=35+i*15
+        b+=signal(f'M45 110 C115 110 100 {y} 185 {y} S265 110 315 110',BLUE if i%2 else VIOLET,5+i*.2,-i*.5)
+        b+=f'<circle cx="185" cy="{y}" r="3" fill="{BLUE if i%2 else VIOLET}"/>'
+    b+=signal('M315 110 H470',CYAN,4)+signal('M470 110 H625',VIOLET,4,-1)+signal('M625 110 H810',CYAN,4,-2)
+    for x,lab,sub in [(315,'Hybrid','Weighted RRF'),(470,'Rank','2-stage LambdaMART'),(625,'Rerank','6-view Jina')]:
+        b+=f'<circle cx="{x}" cy="110" r="28" fill="#11172B" stroke="{VIOLET}"/>'
+        b+=text(x,116,'→',22,CYAN,600,'text-anchor="middle"')
+        b+=text(x,184,lab,24,WHITE,600,'text-anchor="middle"')
+        b+=text(x,214,sub,16,MUTED,400,'text-anchor="middle"')
+    b+=text(20,250,'Natural-language query',20)+text(20,278,'Candidate retrieval · 11 signals',18,MUTED)
+    for i in range(3):
+        x,y=790+i*17,38-i*12
+        b+=f'<rect x="{x}" y="{y}" width="85" height="130" rx="5" fill="#151D38" stroke="#526092"/>'
+        for j in range(4): b+=line(x+12,y+30+j*21,x+72,y+30+j*21,'#526092',3)
+    b+='<rect x="836" y="65" width="58" height="10" fill="#22D3EE" opacity=".35"><animate attributeName="y" values="65;107;65" dur="6s" repeatCount="indefinite"/></rect>'
+    b+=text(842,214,'Relevant passages',18,WHITE,400,'text-anchor="middle"')
+    return b
+
+def lexviet(mobile=False):
+    w,h=(600,850) if mobile else (1000,570)
+    b=text(40,52,'01 / INFORMATION RETRIEVAL',16,CYAN,600,'letter-spacing="2"')
+    b+=text(40,116,'LexViet',60,WHITE,700,'letter-spacing="-2"')
+    b+=text(40,156,'Vietnamese legal document retrieval',24,MUTED)
+    if mobile:
+        b+=text(40,227,'0.9428',46,VIOLET,650)+text(235,225,'Competition Score',22)
+        # Mobile composition: full-size pipeline is rotated into a reading column by stages, not scaled tiny.
+        for i,(lab,sub) in enumerate([('Query → candidates','2,080 private queries · 596,062 chunks'),('Hybrid retrieval','11 dense + lexical signals · Weighted RRF'),('Learned ranking','Two-stage LightGBM LambdaMART'),('Passage reranking','Six-view Jina → relevant legal documents')]):
+            y=300+i*120
+            b+=f'<circle cx="62" cy="{y+5}" r="20" fill="#151D38" stroke="{VIOLET}"/>'
+            b+=text(62,y+12,str(i+1),19,CYAN,600,'text-anchor="middle"')
+            b+=text(104,y,lab,28,WHITE,600)+text(104,y+36,sub,18,MUTED)
+            if i<3:b+=signal(f'M62 {y+26} V{y+98}',CYAN,4,-i)
+        b+=text(40,806,'Research pipeline · repository includes a synthetic demo',17,MUTED)
+    else:
+        b+=text(735,109,'0.9428',48,VIOLET,650)+text(735,145,'Competition Score',20)
+        b+='<g transform="translate(40 204)">'+retrieval_scene()+'</g>'
+        b+=line(40,514,960,514)+text(40,546,'2,080 private queries · 596,062 legal chunks',19,MUTED)
+        b+=text(960,546,'Research + synthetic demo ↗',18,VIOLET,500,'text-anchor="end"')
+    save('lexviet-mobile.svg' if mobile else 'lexviet.svg',w,h,b,'LexViet — 0.9428 Competition Score. 11-signal hybrid retrieval, Weighted RRF, two-stage LightGBM LambdaMART, six-view Jina reranking. Public API is a synthetic demo, not the full research system.')
+
 if __name__=='__main__':
     hero(); hero(True); moodboards()
+    if '--lexviet' in sys.argv: lexviet(); lexviet(True)
