@@ -1,44 +1,45 @@
-<p align="center"><img src="https://raw.githubusercontent.com/ducdanh2304/ducdanh2304/212e26749f8cdf1f9c1e045ab76b48d66603d00b/assets/hero-v2.svg" width="100%" alt="Danh Duc Nguyen — AI Engineering, Computer Vision, Information Retrieval and Multimodal AI" /></p>
+<p align="center"><img src="assets/hero.svg" alt="Danh Duc Nguyen — AI engineering, computer vision, information retrieval and multimodal AI" width="100%"></p>
 
-<p align="center">
-  <a href="mailto:danhnd.work@gmail.com"><img src="https://raw.githubusercontent.com/ducdanh2304/ducdanh2304/8ea76ce9d0c943f9a68cff85ded522e7fc7b9b7d/assets/nav-email.svg" height="38" alt="Email" /></a>
-  <a href="https://www.linkedin.com/in/danh-nguyen-duc-79ba6432a/"><img src="https://raw.githubusercontent.com/ducdanh2304/ducdanh2304/8ea76ce9d0c943f9a68cff85ded522e7fc7b9b7d/assets/nav-linkedin.svg" height="38" alt="LinkedIn" /></a>
-  <a href="https://github.com/ducdanh2304?tab=repositories"><img src="https://raw.githubusercontent.com/ducdanh2304/ducdanh2304/8ea76ce9d0c943f9a68cff85ded522e7fc7b9b7d/assets/nav-github.svg" height="38" alt="Repositories" /></a>
-  <a href="https://link.springer.com/chapter/10.1007/978-981-92-2597-2_36"><img src="https://raw.githubusercontent.com/ducdanh2304/ducdanh2304/8ea76ce9d0c943f9a68cff85ded522e7fc7b9b7d/assets/nav-publication.svg" height="38" alt="Publication" /></a>
-</p>
+I build retrieval and vision systems that turn complex data into useful signals. My work spans legal search, data-centric object detection, and multilingual video retrieval.
 
-<p align="center"><strong>Vision. Language. Retrieval.</strong><br />Building intelligent systems through data, representation learning and careful evaluation.</p>
+<p align="center"><a href="https://github.com/ducdanh2304/lexviet-retrieval">Legal retrieval</a> &nbsp;·&nbsp; <a href="https://github.com/ducdanh2304/3lc-vehicle-detection-1st-place">Computer vision</a> &nbsp;·&nbsp; <a href="https://link.springer.com/chapter/10.1007/978-981-92-2597-2_36">Research paper</a></p>
 
-## Technical Toolkit
+## Working systems
 
-### Programming
-<p><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" width="40" alt="" /> <strong>Python</strong> &nbsp;&nbsp;&nbsp; <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bash/bash-original.svg" width="40" alt="" /> <strong>Bash</strong> &nbsp;&nbsp;&nbsp; <strong>SQL</strong></p>
+<img src="assets/technology.svg" alt="Technology index: programming, machine learning, computer vision and retrieval, data engineering, and deployment" width="100%">
 
-### Machine Learning
-<p><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pytorch/pytorch-original.svg" width="40" alt="" /> <strong>PyTorch</strong> &nbsp;&nbsp;&nbsp; 🤗 <strong>Transformers</strong> &nbsp;&nbsp;&nbsp; <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/scikitlearn/scikitlearn-original.svg" width="40" alt="" /> <strong>Scikit-learn</strong></p>
-<sub>LightGBM · YOLO · PEFT (LoRA / QLoRA)</sub>
+The index includes tools I use and methods I work with. PEFT, LoRA, QLoRA, detection, OCR, and retrieval are methods rather than software logos.
 
-### Computer Vision & NLP
-<p><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/opencv/opencv-original.svg" width="40" alt="" /> <strong>OpenCV</strong> &nbsp;&nbsp;&nbsp; Object detection · OCR · Information retrieval · Dense retrieval · Reranking</p>
+## Selected work
 
-### Data & Engineering
-<p><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/numpy/numpy-original.svg" width="40" alt="" /> <strong>NumPy</strong> &nbsp;&nbsp;&nbsp; <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pandas/pandas-original.svg" width="40" alt="" /> <strong>Pandas</strong> &nbsp;&nbsp;&nbsp; <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sqlite/sqlite-original.svg" width="40" alt="" /> <strong>SQLite</strong> &nbsp;&nbsp;&nbsp; <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" width="40" alt="" /> <strong>Git</strong> &nbsp;&nbsp;&nbsp; <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linux/linux-original.svg" width="40" alt="" /> <strong>Linux</strong></p>
+### 01 / LexViet
 
-### Deployment
-<p><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/fastapi/fastapi-original.svg" width="40" alt="" /> <strong>FastAPI</strong> &nbsp;&nbsp;&nbsp; <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg" width="40" alt="" /> <strong>Docker</strong> &nbsp;&nbsp;&nbsp; <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/githubactions/githubactions-original.svg" width="40" alt="" /> <strong>GitHub Actions</strong> &nbsp;&nbsp;&nbsp; ONNX · TensorRT</p>
+<a href="https://github.com/ducdanh2304/lexviet-retrieval"><img src="assets/project-lexviet.svg" alt="LexViet legal retrieval case study: 0.9428 competition score across 2,080 private queries and 596,062 legal chunks" width="100%"></a>
 
-## Selected Work
+An 11-signal hybrid pipeline combines dense and lexical search, weighted reciprocal rank fusion, two-stage LightGBM LambdaMART, and six-view Jina reranking. A resumable SQLite scoring cache and deterministic three-GPU sharding support large-scale evaluation. [Explore the repository →](https://github.com/ducdanh2304/lexviet-retrieval)
 
-<p align="center"><a href="https://github.com/ducdanh2304/lexviet-retrieval"><picture><source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/ducdanh2304/ducdanh2304/8ea76ce9d0c943f9a68cff85ded522e7fc7b9b7d/assets/lexviet-mobile.svg" /><img src="https://raw.githubusercontent.com/ducdanh2304/ducdanh2304/8ea76ce9d0c943f9a68cff85ded522e7fc7b9b7d/assets/lexviet-v3.svg" width="100%" alt="LexViet — hybrid retrieval and learning to rank for Vietnamese legal documents; 0.9428 competition score." /></picture></a></p>
+### 02 / Multi-vehicle detection
 
-<p align="center"><a href="https://github.com/ducdanh2304/3lc-vehicle-detection-1st-place"><picture><source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/ducdanh2304/ducdanh2304/8ea76ce9d0c943f9a68cff85ded522e7fc7b9b7d/assets/detection-mobile.svg" /><img src="https://raw.githubusercontent.com/ducdanh2304/ducdanh2304/8ea76ce9d0c943f9a68cff85ded522e7fc7b9b7d/assets/detection-v3.svg" width="100%" alt="Multi-Vehicle Detection — first place among 97 teams with model-assisted, human-verified label auditing." /></picture></a></p>
+<a href="https://github.com/ducdanh2304/3lc-vehicle-detection-1st-place"><img src="assets/project-detection.svg" alt="Multi-vehicle detection case study: first place among 97 teams, 0.94052 private mAP at IoU 0.5" width="100%"></a>
 
-<p align="center"><a href="https://link.springer.com/chapter/10.1007/978-981-92-2597-2_36"><picture><source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/ducdanh2304/ducdanh2304/8ea76ce9d0c943f9a68cff85ded522e7fc7b9b7d/assets/video-mobile.svg" /><img src="https://raw.githubusercontent.com/ducdanh2304/ducdanh2304/8ea76ce9d0c943f9a68cff85ded522e7fc7b9b7d/assets/video-v3.svg" width="100%" alt="Multimodal Video Retrieval — first-author research over approximately 600,000 keyframes. Read the Springer paper." /></picture></a></p>
+YOLOv8n trained from random initialization for 250 epochs. Model-assisted missing-label auditing with human verification drove 61 dataset revisions and 21 training iterations. Mosaic, MixUp, confidence threshold, and NMS tuning completed the pipeline. [Explore the repository →](https://github.com/ducdanh2304/3lc-vehicle-detection-1st-place)
 
-<p><strong>Published research</strong> · <a href="https://link.springer.com/chapter/10.1007/978-981-92-2597-2_36">Efficient Video Retrieval for Less-Resourced Languages via Multi-modal Semantic Search</a> · First Author · SOICT 2025 · Springer Nature · 2026</p>
+### 03 / Multimodal video retrieval
 
-## Recognition
+<a href="https://link.springer.com/chapter/10.1007/978-981-92-2597-2_36"><img src="assets/project-multimodal.svg" alt="First-author multimodal video retrieval research across 1,478 videos, 300-plus hours, and approximately 600,000 keyframes" width="100%"></a>
 
-**1st Place** / 3LC Multi-Vehicle Detection &nbsp;&nbsp; · &nbsp;&nbsp; **Top 19** / UIT Data Science Challenge &nbsp;&nbsp; · &nbsp;&nbsp; **Top 5** / HCMC AI Challenge 2025
+Visual embeddings, Vietnamese captions, OCR, speech, and temporal alignment connect natural-language queries to video moments. The system explores CLIP, BEiT-3, MetaCLIP-2, EraX-VL, Vintern, Co-DETR, and Whisper with Log-Sum-Exp aggregation and dynamic programming. [Read the paper →](https://link.springer.com/chapter/10.1007/978-981-92-2597-2_36)
 
-<p align="center"><strong>Building systems. Measuring results. Improving what matters.</strong></p>
+## Research & recognition
+
+**Publication** · First author · [Efficient Video Retrieval for Less-Resourced Languages via Multi-modal Semantic Search](https://link.springer.com/chapter/10.1007/978-981-92-2597-2_36). *SOICT 2025; published online 2026.*
+
+| Recognition | Context |
+| :-- | :-- |
+| **1st Place** | 3LC Multi-Vehicle Detection Challenge · 97 teams |
+| **Top 19** | UIT Data Science Challenge · legal information retrieval |
+| **Top 5 / Consolation Prize** | Ho Chi Minh City AI Challenge 2025 · 600+ teams |
+
+<p align="center"><img src="assets/footer.svg" alt="Signal / Form — AI engineering, vision, retrieval, multimodal systems" width="100%"></p>
+
+<p align="center"><a href="https://www.linkedin.com/in/danh-nguyen-duc-79ba6432a/">LinkedIn</a> &nbsp;·&nbsp; <a href="mailto:danhnd.work@gmail.com">Email</a> &nbsp;·&nbsp; <a href="https://github.com/ducdanh2304">GitHub</a></p>
