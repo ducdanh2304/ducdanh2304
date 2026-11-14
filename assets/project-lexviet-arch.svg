@@ -1,0 +1,58 @@
+<svg width="1100" height="190" viewBox="0 0 1100 190" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="LexViet Retrieval Architecture Diagram">
+  <defs>
+    <linearGradient id="cardBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0B1020" />
+      <stop offset="100%" stop-color="#111A30" />
+    </linearGradient>
+    <linearGradient id="flowGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#4F8CFF" />
+      <stop offset="100%" stop-color="#8B5CF6" />
+    </linearGradient>
+  </defs>
+
+  <rect x="0.5" y="0.5" width="1099" height="189" rx="12" fill="url(#cardBg)" stroke="#4F8CFF" stroke-opacity="0.28" />
+
+  <!-- Stage 1 -->
+  <rect x="24" y="28" width="225" height="134" rx="8" fill="#111A30" stroke="#4F8CFF" stroke-opacity="0.45" />
+  <text x="40" y="52" font-family="ui-monospace, monospace" font-size="11" font-weight="700" fill="#60A5FA">01 · HIERARCHICAL CHUNKING</text>
+  <text x="40" y="76" font-family="-apple-system, sans-serif" font-size="13" font-weight="600" fill="#E8EEFF">596,062 Legal Chunks</text>
+  <text x="40" y="98" font-family="-apple-system, sans-serif" font-size="11.5" fill="#A6B3D1">Chapter → Article → Clause</text>
+  <text x="40" y="116" font-family="-apple-system, sans-serif" font-size="11.5" fill="#A6B3D1">3-tier structure parser +</text>
+  <text x="40" y="133" font-family="-apple-system, sans-serif" font-size="11.5" fill="#A6B3D1">token-split fallback</text>
+
+  <!-- Arrow 1->2 -->
+  <line x1="249" y1="95" x2="292" y2="95" stroke="url(#flowGrad)" stroke-width="2" />
+  <polygon points="292,90 301,95 292,100" fill="#60A5FA" />
+
+  <!-- Stage 2 -->
+  <rect x="303" y="28" width="240" height="134" rx="8" fill="#111A30" stroke="#60A5FA" stroke-opacity="0.45" />
+  <text x="319" y="52" font-family="ui-monospace, monospace" font-size="11" font-weight="700" fill="#60A5FA">02 · HYBRID RETRIEVAL</text>
+  <text x="319" y="76" font-family="-apple-system, sans-serif" font-size="13" font-weight="600" fill="#E8EEFF">11-Signal Weighted RRF</text>
+  <text x="319" y="98" font-family="-apple-system, sans-serif" font-size="11.5" fill="#A6B3D1">Dense embeddings + lexical</text>
+  <text x="319" y="116" font-family="-apple-system, sans-serif" font-size="11.5" fill="#A6B3D1">Memory & citation graph signals</text>
+  <text x="319" y="138" font-family="ui-monospace, monospace" font-size="11" fill="#A78BFA">Recall@60: 96.35%</text>
+
+  <!-- Arrow 2->3 -->
+  <line x1="543" y1="95" x2="586" y2="95" stroke="url(#flowGrad)" stroke-width="2" />
+  <polygon points="586,90 595,95 586,100" fill="#8B5CF6" />
+
+  <!-- Stage 3 -->
+  <rect x="597" y="28" width="245" height="134" rx="8" fill="#111A30" stroke="#8B5CF6" stroke-opacity="0.5" />
+  <text x="613" y="52" font-family="ui-monospace, monospace" font-size="11" font-weight="700" fill="#A78BFA">03 · TWO-STAGE RERANKING</text>
+  <text x="613" y="76" font-family="-apple-system, sans-serif" font-size="13" font-weight="600" fill="#E8EEFF">LambdaMART + 6-View Jina</text>
+  <text x="613" y="98" font-family="-apple-system, sans-serif" font-size="11.5" fill="#A6B3D1">3-GPU sharded scoring</text>
+  <text x="613" y="116" font-family="-apple-system, sans-serif" font-size="11.5" fill="#A6B3D1">SQLite cache (748,800 scores)</text>
+  <text x="613" y="138" font-family="ui-monospace, monospace" font-size="11" fill="#60A5FA">SHA-256 deterministic merge</text>
+
+  <!-- Arrow 3->4 -->
+  <line x1="842" y1="95" x2="885" y2="95" stroke="url(#flowGrad)" stroke-width="2" />
+  <polygon points="885,90 894,95 885,100" fill="#A78BFA" />
+
+  <!-- Stage 4 -->
+  <rect x="896" y="28" width="180" height="134" rx="8" fill="#111A30" stroke="#A78BFA" stroke-opacity="0.6" />
+  <text x="912" y="52" font-family="ui-monospace, monospace" font-size="11" font-weight="700" fill="#A78BFA">04 · OUTPUT</text>
+  <text x="912" y="78" font-family="-apple-system, sans-serif" font-size="18" font-weight="700" fill="#E8EEFF">94.28%</text>
+  <text x="912" y="98" font-family="ui-monospace, monospace" font-size="11.5" fill="#60A5FA">Recall@5 (2,080 queries)</text>
+  <text x="912" y="124" font-family="-apple-system, sans-serif" font-size="11.5" fill="#A6B3D1">5-Fold OOF Hits:</text>
+  <text x="912" y="142" font-family="ui-monospace, monospace" font-size="12" font-weight="700" fill="#E8EEFF">466 → 475</text>
+</svg>

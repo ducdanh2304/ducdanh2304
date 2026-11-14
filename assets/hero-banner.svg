@@ -1,0 +1,133 @@
+<svg width="1200" height="320" viewBox="0 0 1200 320" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Nguyen Duc Danh — AI / Machine Learning Engineer">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="1200" y2="320" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0B1020" />
+      <stop offset="55%" stop-color="#111A30" />
+      <stop offset="100%" stop-color="#0B1020" />
+    </linearGradient>
+
+    <linearGradient id="accentGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#4F8CFF" />
+      <stop offset="50%" stop-color="#60A5FA" />
+      <stop offset="100%" stop-color="#8B5CF6" />
+    </linearGradient>
+
+    <linearGradient id="nodeGlow" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#60A5FA" stop-opacity="0.85" />
+      <stop offset="100%" stop-color="#A78BFA" stop-opacity="0.25" />
+    </linearGradient>
+
+    <radialGradient id="orbBlue" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0%" stop-color="#4F8CFF" stop-opacity="0.24" />
+      <stop offset="100%" stop-color="#4F8CFF" stop-opacity="0" />
+    </radialGradient>
+
+    <radialGradient id="orbViolet" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0%" stop-color="#8B5CF6" stop-opacity="0.22" />
+      <stop offset="100%" stop-color="#8B5CF6" stop-opacity="0" />
+    </radialGradient>
+
+    <pattern id="techGrid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#4F8CFF" stroke-opacity="0.07" stroke-width="1" />
+    </pattern>
+
+    <clipPath id="frameClip">
+      <rect x="1" y="1" width="1198" height="318" rx="16" />
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#frameClip)">
+    <!-- Base Canvas -->
+    <rect width="1200" height="320" fill="url(#bgGrad)" />
+    <rect width="1200" height="320" fill="url(#techGrid)" />
+
+    <!-- Ambient Glow Orbs -->
+    <circle cx="960" cy="95" r="240" fill="url(#orbBlue)">
+      <animate attributeName="r" values="230;255;230" dur="8s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="1070" cy="240" r="210" fill="url(#orbViolet)">
+      <animate attributeName="r" values="210;185;210" dur="9s" repeatCount="indefinite" />
+    </circle>
+
+    <!-- Top Accent Bar -->
+    <rect x="0" y="0" width="1200" height="3" fill="url(#accentGrad)" />
+
+    <!-- Asymmetric Right-Side Vector Graph / Latent Embedding Topology -->
+    <g opacity="0.9">
+      <!-- Connecting Edges -->
+      <line x1="810" y1="75" x2="930" y2="120" stroke="#4F8CFF" stroke-opacity="0.35" stroke-width="1.2" />
+      <line x1="930" y1="120" x2="1080" y2="85" stroke="#8B5CF6" stroke-opacity="0.4" stroke-width="1.2" />
+      <line x1="930" y1="120" x2="1015" y2="195" stroke="#60A5FA" stroke-opacity="0.45" stroke-width="1.4" />
+      <line x1="810" y1="75" x2="855" y2="215" stroke="#4F8CFF" stroke-opacity="0.25" stroke-width="1" />
+      <line x1="855" y1="215" x2="1015" y2="195" stroke="#A78BFA" stroke-opacity="0.35" stroke-width="1.2" />
+      <line x1="1015" y1="195" x2="1125" y2="235" stroke="#8B5CF6" stroke-opacity="0.45" stroke-width="1.2" />
+      <line x1="1080" y1="85" x2="1125" y2="235" stroke="#60A5FA" stroke-opacity="0.25" stroke-width="1" />
+
+      <!-- Animated Signal Pulse along Primary Path -->
+      <circle r="3.5" fill="#60A5FA">
+        <animateMotion dur="5s" repeatCount="indefinite" path="M810,75 L930,120 L1015,195 L1125,235" />
+      </circle>
+      <circle r="3" fill="#A78BFA">
+        <animateMotion dur="6.5s" repeatCount="indefinite" path="M1080,85 L930,120 L855,215" />
+      </circle>
+
+      <!-- Latent Nodes -->
+      <circle cx="810" cy="75" r="5" fill="#111A30" stroke="#60A5FA" stroke-width="2" />
+      <circle cx="930" cy="120" r="7" fill="#111A30" stroke="#8B5CF6" stroke-width="2.2">
+        <animate attributeName="r" values="6.5;8.5;6.5" dur="4s" repeatCount="indefinite" />
+      </circle>
+      <circle cx="1080" cy="85" r="5" fill="#111A30" stroke="#A78BFA" stroke-width="2" />
+      <circle cx="855" cy="215" r="4.5" fill="#111A30" stroke="#4F8CFF" stroke-width="1.8" />
+      <circle cx="1015" cy="195" r="6" fill="#111A30" stroke="#60A5FA" stroke-width="2" />
+      <circle cx="1125" cy="235" r="5" fill="#111A30" stroke="#8B5CF6" stroke-width="2" />
+
+      <!-- Subtle Telemetry Tags -->
+      <g font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="11" fill="#A6B3D1" opacity="0.75">
+        <rect x="822" y="54" width="96" height="20" rx="4" fill="#111A30" stroke="#4F8CFF" stroke-opacity="0.3" />
+        <text x="832" y="68">VISION · DET</text>
+
+        <rect x="1028" y="172" width="118" height="20" rx="4" fill="#111A30" stroke="#8B5CF6" stroke-opacity="0.35" />
+        <text x="1038" y="186">HYBRID · IR</text>
+
+        <rect x="780" y="232" width="132" height="20" rx="4" fill="#111A30" stroke="#60A5FA" stroke-opacity="0.3" />
+        <text x="790" y="246">MULTIMODAL · VLM</text>
+      </g>
+    </g>
+
+    <!-- Left Editorial Content -->
+    <g transform="translate(56, 54)">
+      <!-- Role Eyebrow Pill -->
+      <rect x="0" y="0" width="292" height="26" rx="13" fill="#111A30" stroke="#4F8CFF" stroke-opacity="0.45" />
+      <circle cx="16" cy="13" r="4" fill="#60A5FA">
+        <animate attributeName="opacity" values="1;0.35;1" dur="2.4s" repeatCount="indefinite" />
+      </circle>
+      <text x="28" y="17" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="11.5" font-weight="600" letter-spacing="1.2" fill="#A78BFA">
+        AI / MACHINE LEARNING ENGINEER
+      </text>
+
+      <!-- Name Display -->
+      <text x="0" y="76" font-family="-apple-system, BlinkMacSystemFont, &#39;Segoe UI&#39;, Roboto, Helvetica, Arial, sans-serif" font-size="44" font-weight="800" letter-spacing="1.5" fill="#E8EEFF">
+        NGUYEN DUC DANH
+      </text>
+
+      <!-- Positioning Headline -->
+      <text x="0" y="114" font-family="-apple-system, BlinkMacSystemFont, &#39;Segoe UI&#39;, Roboto, Helvetica, Arial, sans-serif" font-size="20" font-weight="600" fill="url(#accentGrad)">
+        Building Intelligence. Engineering Impact.
+      </text>
+
+      <!-- Supporting Statement -->
+      <text x="0" y="146" font-family="-apple-system, BlinkMacSystemFont, &#39;Segoe UI&#39;, Roboto, Helvetica, Arial, sans-serif" font-size="14.5" fill="#A6B3D1">
+        Turning research ideas into practical AI systems across Computer Vision, NLP, and Multimodal AI.
+      </text>
+
+      <!-- Metadata Strip -->
+      <line x1="0" y1="174" x2="660" y2="174" stroke="#4F8CFF" stroke-opacity="0.2" stroke-width="1" />
+      <text x="0" y="198" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="12" fill="#A6B3D1">
+        <tspan fill="#60A5FA">LOC:</tspan> Ho Chi Minh City, VN   <tspan fill="#4F8CFF">|</tspan>   <tspan fill="#60A5FA">EDU:</tspan> UIT – VNUHCM (CS '27)   <tspan fill="#4F8CFF">|</tspan>   <tspan fill="#A78BFA">1ST AUTHOR:</tspan> Springer SOICT
+      </text>
+    </g>
+  </g>
+
+  <!-- Outer Crisp Border -->
+  <rect x="0.5" y="0.5" width="1199" height="319" rx="16" stroke="#4F8CFF" stroke-opacity="0.32" />
+</svg>
