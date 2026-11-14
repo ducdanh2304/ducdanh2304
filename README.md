@@ -1,42 +1,17 @@
-<!-- ===================================================================== -->
-<!-- NGUYEN DUC DANH — AI / MACHINE LEARNING ENGINEER PORTFOLIO            -->
-<!-- ===================================================================== -->
-
 <!-- SECTION 01 — HERO / INTRODUCTION -->
 <div align="center">
-  <img src="./assets/hero-banner.svg" alt="Nguyen Duc Danh — AI / Machine Learning Engineer Banner" width="100%" />
+  <img src="./assets/hero-banner.svg?v=2" alt="Nguyen Duc Danh — AI Systems and Applied ML" width="100%" />
 </div>
 
 <div align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&duration=2800&pause=900&color=60A5FA&center=true&vCenter=true&width=640&height=36&lines=Computer+Vision+%26+Data-Centric+AI+Systems;Natural+Language+Processing+%26+Hybrid+Retrieval;Multimodal+Semantic+Video+Search;End-to-End+ML+Training+%26+Inference+Optimization" alt="Animated focus areas: Computer Vision, NLP, Hybrid Retrieval, Multimodal AI" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=17&duration=2600&pause=850&color=60A5FA&center=true&vCenter=true&width=760&height=34&lines=Computer+Vision+%26+Data-Centric+AI+Systems;Natural+Language+Processing+%26+Hybrid+Retrieval;Multimodal+Semantic+Search+%26+Vision-Language+Models;Agentic+AI+Workflows+%26+Autonomous+Pipelines" alt="AI Engineering Focus Areas" />
   </a>
 </div>
 
-<p align="center">
-  <a href="mailto:danhnd.work@gmail.com">
-    <img src="https://img.shields.io/badge/Email-danhnd.work%40gmail.com-111A30?style=for-the-badge&logo=gmail&logoColor=60A5FA&labelColor=0B1020" alt="Email Nguyen Duc Danh" />
-  </a>
-  <a href="https://linkedin.com/in/danhnd2304" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-danhnd2304-111A30?style=for-the-badge&logo=linkedin&logoColor=8B5CF6&labelColor=0B1020" alt="LinkedIn Profile" />
-  </a>
-  <a href="https://github.com/ducdanh2304" target="_blank">
-    <img src="https://img.shields.io/badge/GitHub-ducdanh2304-111A30?style=for-the-badge&logo=github&logoColor=A78BFA&labelColor=0B1020" alt="GitHub Profile" />
-  </a>
-  <a href="https://link.springer.com/chapter/10.1007/978-981-92-2597-2_36" target="_blank">
-    <img src="https://img.shields.io/badge/Publication-Springer_SOICT-111A30?style=for-the-badge&logo=springer&logoColor=4F8CFF&labelColor=0B1020" alt="Springer Publication" />
-  </a>
-  <!-- Uncomment and replace URL once public CV link is hosted -->
-  <!--
-  <a href="https://github.com/ducdanh2304/ducdanh2304/blob/main/assets/Nguyen_Duc_Danh_CV.pdf" target="_blank">
-    <img src="https://img.shields.io/badge/Curriculum_Vitae-Download_PDF-4F8CFF?style=for-the-badge&logo=readthedocs&logoColor=E8EEFF&labelColor=111A30" alt="Download CV" />
-  </a>
-  -->
-</p>
-
-<p align="center">
-  <sub><strong>Ho Chi Minh City, Vietnam</strong> &nbsp;•&nbsp; B.Sc. Computer Science, UIT – VNUHCM (Expected June 2027) &nbsp;•&nbsp; GPA: 8.61/10 &nbsp;•&nbsp; IELTS: 6.5</sub>
-</p>
+<div align="center">
+  <img src="./assets/contact-dock.svg?v=2" alt="Contact Nguyen Duc Danh: Email, LinkedIn, GitHub" width="88%" />
+</div>
 
 <br />
 <img src="./assets/section-divider.svg" alt="" width="100%" />
