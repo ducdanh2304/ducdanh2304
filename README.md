@@ -111,3 +111,6 @@
     </td>
   </tr>
 </table>
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=ducdanh2304&show_icons=true&theme=gruvbox&bg_color=0D1322&title_color=FF8A00&text_color=CBD5E1&icon_color=FFB03B&border_color=FF8A00&border_radius=12" />
+</p>
