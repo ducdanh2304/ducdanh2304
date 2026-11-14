@@ -68,12 +68,14 @@
 
 </div>
 
----
-
-### <div align="center">📊 GitHub Analytics & Top Languages</div>
+### <div align="center">🚀 Featured AI & ML Projects</div>
 
 <p align="center">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=ducdanh2304&show_icons=true&theme=gruvbox&bg_color=0D1322&title_color=FF8A00&text_color=CBD5E1&icon_color=FFB03B&border_color=FF8A00&border_radius=12" />
+  <a href="https://github.com/ducdanh2304/LexViet">
+    <img width="48%" src="https://github-readme-stats.vercel.app/api/pin/?username=ducdanh2304&repo=LexViet&theme=gruvbox&bg_color=0D1322&title_color=FF8A00&text_color=CBD5E1&icon_color=FFB03B&border_color=FF8A00&border_radius=12" />
+  </a>
   &nbsp;
-  <img width="48%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ducdanh2304&layout=compact&theme=gruvbox&bg_color=0D1322&title_color=C084FC&text_color=CBD5E1&border_color=C084FC&border_radius=12" />
+  <a href="https://github.com/ducdanh2304/Multi-Vehicle-Detection">
+    <img width="48%" src="https://github-readme-stats.vercel.app/api/pin/?username=ducdanh2304&repo=Multi-Vehicle-Detection&theme=gruvbox&bg_color=0D1322&title_color=C084FC&text_color=CBD5E1&icon_color=C084FC&border_color=C084FC&border_radius=12" />
+  </a>
 </p>
