@@ -54,8 +54,9 @@ def hero(mobile=False):
     b+=text(40,145,'DANH DUC',64 if mobile else 76,WHITE,750,'letter-spacing="-3"')
     b+=text(40,220,'NGUYEN',74 if mobile else 88,WHITE,750,'letter-spacing="-3"')
     b+='<path d="M42 240 H220" stroke="url(#ink)" stroke-width="3" stroke-dasharray="55 12"><animate attributeName="stroke-dashoffset" from="0" to="-134" dur="8s" repeatCount="indefinite"/></path>'
-    b+=text(40,285,'AI ENGINEERING  ·  COMPUTER VISION',19,WHITE,600)
-    b+=text(40,315,'INFORMATION RETRIEVAL  ·  MULTIMODAL AI',18,MUTED)
+    b+=text(40,285,'AI ENGINEERING  ·  COMPUTER VISION',23 if mobile else 19,WHITE,600)
+    b+=text(40,320,'INFORMATION RETRIEVAL',24 if mobile else 18,MUTED)
+    b+=text(40,355 if mobile else 350,'MULTIMODAL AI',24 if mobile else 18,MUTED)
     yy=690 if mobile else 420
     b+=text(40,yy,'Building intelligent systems across',23)
     b+=text(40,yy+32,'vision, language, and retrieval.',23,MUTED)
@@ -84,10 +85,10 @@ def retrieval_scene():
         b+=signal(f'M45 110 C115 110 100 {y} 185 {y} S265 110 315 110',BLUE if i%2 else VIOLET,5+i*.2,-i*.5)
         b+=f'<circle cx="185" cy="{y}" r="3" fill="{BLUE if i%2 else VIOLET}"/>'
     b+=signal('M315 110 H470',CYAN,4)+signal('M470 110 H625',VIOLET,4,-1)+signal('M625 110 H810',CYAN,4,-2)
-    for x,lab,sub in [(315,'Hybrid','Weighted RRF'),(470,'Rank','2-stage LambdaMART'),(625,'Rerank','6-view Jina')]:
+    for x,lab,sub in [(315,'Hybrid','Weighted RRF'),(470,'LambdaMART','2-stage LightGBM'),(625,'Rerank','6-view Jina')]:
         b+=f'<circle cx="{x}" cy="110" r="28" fill="#11172B" stroke="{VIOLET}"/>'
         b+=text(x,116,'→',22,CYAN,600,'text-anchor="middle"')
-        b+=text(x,184,lab,24,WHITE,600,'text-anchor="middle"')
+        b+=text(x,184,lab,21,WHITE,600,'text-anchor="middle"')
         b+=text(x,214,sub,16,MUTED,400,'text-anchor="middle"')
     b+=text(20,250,'Natural-language query',20)+text(20,278,'Candidate retrieval · 11 signals',18,MUTED)
     for i in range(3):
@@ -106,13 +107,13 @@ def lexviet(mobile=False):
     if mobile:
         b+=text(40,227,'0.9428',46,VIOLET,650)+text(235,225,'Competition Score',22)
         # Mobile composition: full-size pipeline is rotated into a reading column by stages, not scaled tiny.
-        for i,(lab,sub) in enumerate([('Query → candidates','2,080 private queries · 596,062 chunks'),('Hybrid retrieval','11 dense + lexical signals · Weighted RRF'),('Learned ranking','Two-stage LightGBM LambdaMART'),('Passage reranking','Six-view Jina → relevant legal documents')]):
+        for i,(lab,sub) in enumerate([('Query → candidates','2,080 queries · 596,062 chunks'),('11-signal hybrid retrieval','Dense + lexical · Weighted RRF'),('Two-stage LightGBM','LambdaMART ranking'),('Six-view Jina reranking','Relevant legal documents')]):
             y=300+i*120
             b+=f'<circle cx="62" cy="{y+5}" r="20" fill="#151D38" stroke="{VIOLET}"/>'
             b+=text(62,y+12,str(i+1),19,CYAN,600,'text-anchor="middle"')
-            b+=text(104,y,lab,28,WHITE,600)+text(104,y+36,sub,18,MUTED)
+            b+=text(104,y,lab,28,WHITE,600)+text(104,y+36,sub,24,MUTED)
             if i<3:b+=signal(f'M62 {y+26} V{y+98}',CYAN,4,-i)
-        b+=text(40,806,'Research pipeline · repository includes a synthetic demo',17,MUTED)
+        b+=text(40,790,'Research pipeline; public API is',24,MUTED)+text(40,822,'a synthetic demo of the interface.',24,MUTED)
     else:
         b+=text(735,109,'0.9428',48,VIOLET,650)+text(735,145,'Competition Score',20)
         b+='<g transform="translate(40 204)">'+retrieval_scene()+'</g>'
