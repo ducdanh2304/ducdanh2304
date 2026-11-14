@@ -19,9 +19,9 @@
 ### <div align="center">💡 About Me</div>
 
 <div align="center" style="max-width: 920px; margin: 0 auto; color: #CBD5E1; font-size: 15px; line-height: 1.7;">
-  👋 Hi! I am a final-year Computer Science student at <b>UIT - VNUHCM</b> with hands-on expertise in Machine Learning and Deep Learning. 
+  👋 Hi! I am a Computer Science student at <b>UIT - VNUHCM</b> with a relentless passion for Artificial Intelligence and deep learning systems. 
   <br>
-  🎯 My core focus lies at the intersection of <b>Computer Vision</b>, <b>NLP & Information Retrieval</b>[cite: 11], and <b>Multimodal AI systems</b>. I specialize in data-centric optimization, custom model training, fine-tuning, and large-scale retrieval pipelines[cite: 11] — with notable milestones including winning <b>1st Place in the 3LC Multi-Vehicle Detection Challenge</b>[cite: 11] and serving as first author on multimodal video retrieval research[cite: 11].
+  🚀 I thrive on turning complex concepts into production-grade solutions. My core strengths lie in <b>Computer Vision</b>, <b>NLP & Information Retrieval</b>, and <b>Multimodal AI architectures</b>. I am a fast learner with a rigorous, metric-driven mindset—constantly exploring cutting-edge models, optimizing data-centric pipelines, and actively challenging myself in competitive ML arenas where I've consistently achieved top-tier global and regional rankings.
 </div>
 
 <br>
