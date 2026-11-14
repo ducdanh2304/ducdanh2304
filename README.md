@@ -1,4 +1,4 @@
-<p align="center"><img src="assets/hero.svg" alt="Danh Duc Nguyen — AI engineering, computer vision, information retrieval and multimodal AI" width="100%"></p>
+<p align="center"><img src="https://raw.githubusercontent.com/ducdanh2304/ducdanh2304/9d9d04f43ff5e5f465b89ed7c26d619c22243cb7/assets/banner.svg" alt="Danh Duc Nguyen — AI engineering, computer vision, information retrieval and multimodal AI" width="100%"></p>
 
 I build retrieval and vision systems that turn complex data into useful signals. My work spans legal search, data-centric object detection, and multilingual video retrieval.
 
