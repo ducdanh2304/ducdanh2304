@@ -1,254 +1,166 @@
-<!-- SECTION 01 — HERO / INTRODUCTION -->
-<div align="center">
-  <img src="https://raw.githubusercontent.com/ducdanh2304/ducdanh2304/main/assets/hero-banner.svg?v=4000" alt="Nguyen Duc Danh — AI Systems and Applied ML" width="100%" />
-</div>
+<svg width="1200" height="320" viewBox="0 0 1200 320" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Nguyen Duc Danh - AI Systems and Applied Research">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="1200" y2="320" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0B1020" />
+      <stop offset="50%" stop-color="#0F172A" />
+      <stop offset="100%" stop-color="#0B1020" />
+    </linearGradient>
 
-<div align="center" style="margin-top: 12px; margin-bottom: 12px;">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=16&duration=2600&pause=900&color=FFB03B&center=true&vCenter=true&width=720&height=32&lines=Just+do+it.+Keep+building.;Computer+Vision+%26+Deep+Neural+Graphs;Multimodal+AI+%26+Autonomous+Pipelines;Keep+iterating.+Ship+impact.&v=123" alt="Slogan" />
-</div>
+    <linearGradient id="titleGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="70%" stop-color="#E2E8F0" />
+      <stop offset="100%" stop-color="#93C5FD" />
+    </linearGradient>
 
-<div align="center" style="line-height: 0; margin-top: 8px;">
-  <a href="mailto:danhnd.work@gmail.com"><img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" height="36"/></a>&nbsp;<a href="https://linkedin.com/in/danhnd2304" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" height="36"/></a>&nbsp;<a href="https://github.com/ducdanh2304" target="_blank"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" height="36"/></a>&nbsp;<a href="https://www.facebook.com/nguyen.shari.7/" target="_blank"><img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" alt="Facebook" height="36"/></a>
-</div>
+    <linearGradient id="brainGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FF8A00" />
+      <stop offset="50%" stop-color="#C084FC" />
+      <stop offset="100%" stop-color="#8B5CF6" />
+    </linearGradient>
 
-<br />
-<img src="./assets/section-divider.svg" alt="" width="100%" />
+    <linearGradient id="accentGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#FF8A00" />
+      <stop offset="50%" stop-color="#A855F7" />
+      <stop offset="100%" stop-color="#4F8CFF" />
+    </linearGradient>
 
-<!-- SECTION 02 — ABOUT ME -->
-## `01 //` Engineering Profile
+    <radialGradient id="orbOrange" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0%" stop-color="#FF8A00" stop-opacity="0.28" />
+      <stop offset="100%" stop-color="#FF8A00" stop-opacity="0" />
+    </radialGradient>
 
-<table>
-  <tr>
-    <td width="64%" valign="top">
-      <p>
-        I am a Computer Science undergraduate at the <strong>University of Information Technology (UIT – VNUHCM)</strong> focused on building reliable, measurable AI systems across <strong>Computer Vision</strong>, <strong>Natural Language Processing</strong>, and <strong>Multimodal Retrieval</strong>.
-      </p>
-      <p>
-        My engineering workflow spans the full lifecycle—from data auditing, structure-aware chunking, and multi-signal retrieval pipelines to parameter-efficient fine-tuning, multi-GPU inference sharding, and latency optimization. Rather than treating models in isolation, I focus on data quality, deterministic evaluation, and reproducible system architecture.
-      </p>
-    </td>
-    <td width="36%" valign="top">
-      <table>
-        <tr>
-          <td><strong>Target Roles</strong></td>
-          <td>Fresher AI / ML Engineer</td>
-        </tr>
-        <tr>
-          <td><strong>Core Focus</strong></td>
-          <td>CV, NLP, Multimodal & IR</td>
-        </tr>
-        <tr>
-          <td><strong>Institution</strong></td>
-          <td>UIT – VNUHCM (2027)</td>
-        </tr>
-        <tr>
-          <td><strong>Academics</strong></td>
-          <td>GPA 8.61/10 · IELTS 6.5</td>
-        </tr>
-      </table>
-    </td>
-  </tr>
-</table>
+    <radialGradient id="orbViolet" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0%" stop-color="#8B5CF6" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#8B5CF6" stop-opacity="0" />
+    </radialGradient>
 
-<br />
-<img src="./assets/section-divider.svg" alt="" width="100%" />
+    <pattern id="dotMatrix" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#FF8A00" fill-opacity="0.1" />
+    </pattern>
 
-<!-- SECTION 03 — CAREER HIGHLIGHTS -->
-## `02 //` Verified Milestones & Competitions
+    <clipPath id="frameClip">
+      <rect x="1" y="1" width="1198" height="318" rx="16" />
+    </clipPath>
+  </defs>
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h3><code>01</code> &nbsp;1st Place — 3LC Multi-Vehicle Detection</h3>
-      <p>
-        <strong>2026 &nbsp;·&nbsp; Computer Vision & Data-Centric AI</strong><br />
-        Achieved <strong>0.95099 Public / 0.94052 Private mAP@0.5</strong> by combining model-assisted label auditing across 61 dataset revisions with YOLOv8n training and NMS tuning.<br />
-        <a href="https://github.com/ducdanh2304/3lc-vehicle-detection-2nd-place">→ Inspect Solution Repository</a>
-      </p>
-    </td>
-    <td width="50%" valign="top">
-      <h3><code>02</code> &nbsp;First Author — Springer Publication</h3>
-      <p>
-        <strong>2026 &nbsp;·&nbsp; Multimodal Information Retrieval (SOICT)</strong><br />
-        Published peer-reviewed research on efficient Vietnamese-English semantic video search scaling across 1,478 videos (~600k keyframes) via multi-modal fusion.<br />
-        <a href="https://link.springer.com/chapter/10.1007/978-981-92-2597-2_36">→ Read Chapter on SpringerLink</a>
-      </p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3><code>03</code> &nbsp;Top 5 Finalist — HCMC AI Challenge</h3>
-      <p>
-        <strong>2025 &nbsp;·&nbsp; Large-Scale Video Event Retrieval</strong><br />
-        Placed in the <strong>Top 5 out of 600+ competing teams</strong>, architecting a real-time multi-modal retrieval and dynamic temporal alignment engine for 300+ hours of broadcast footage.
-      </p>
-    </td>
-    <td width="50%" valign="top">
-      <h3><code>04</code> &nbsp;Top 19 — UIT Data Science Challenge</h3>
-      <p>
-        <strong>2026 &nbsp;·&nbsp; Task 1: Legal Information Retrieval</strong><br />
-        Engineered an 11-signal hybrid retrieval and two-stage LambdaMART + Jina reranking pipeline over 596,062 Vietnamese statutory provisions (<strong>94.28% Recall@5</strong>).
-      </p>
-    </td>
-  </tr>
-</table>
+  <g clip-path="url(#frameClip)">
+    <rect width="1200" height="320" fill="url(#bgGrad)" />
+    <rect width="1200" height="320" fill="url(#dotMatrix)" />
 
-<br />
-<img src="./assets/section-divider.svg" alt="" width="100%" />
+    <circle cx="980" cy="160" r="230" fill="url(#orbViolet)">
+      <animate attributeName="r" values="215;245;215" dur="7s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="860" cy="130" r="170" fill="url(#orbOrange)">
+      <animate attributeName="r" values="160;190;160" dur="8s" repeatCount="indefinite" />
+    </circle>
 
-<!-- SECTION 04 — TECHNICAL EXPERTISE -->
-## `03 //` Technical Stack & Capabilities
+    <!-- Top Spectrum Line -->
+    <rect x="0" y="0" width="1200" height="4" fill="url(#accentGrad)" />
 
-<table>
-  <tr>
-    <td width="33%" valign="top">
-      <strong>Languages & Scripting</strong><br /><br />
-      <img src="https://skillicons.dev/icons?i=python,mysql,bash&theme=dark" alt="Python, SQL, Bash" /><br /><br />
-      <code>Python</code> &nbsp;<code>SQL</code> &nbsp;<code>Bash</code>
-    </td>
-    <td width="33%" valign="top">
-      <strong>ML & Deep Learning</strong><br /><br />
-      <img src="https://skillicons.dev/icons?i=pytorch,sklearn&theme=dark" alt="PyTorch, Scikit-learn" /><br /><br />
-      <code>PyTorch</code> &nbsp;<code>HF Transformers</code> &nbsp;<code>LightGBM</code> &nbsp;<code>Scikit-learn</code> &nbsp;<code>YOLO</code> &nbsp;<code>PEFT</code> &nbsp;<code>LoRA / QLoRA</code>
-    </td>
-    <td width="33%" valign="top">
-      <strong>CV, NLP & Retrieval</strong><br /><br />
-      <img src="https://skillicons.dev/icons?i=opencv&theme=dark" alt="OpenCV" /><br /><br />
-      <code>OpenCV</code> &nbsp;<code>Object Detection</code> &nbsp;<code>OCR</code> &nbsp;<code>Dense Retrieval</code> &nbsp;<code>Information Retrieval</code> &nbsp;<code>Reranking</code>
-    </td>
-  </tr>
-  <tr>
-    <td width="33%" valign="top">
-      <strong>Data Engineering</strong><br /><br />
-      <img src="https://skillicons.dev/icons?i=sqlite&theme=dark" alt="SQLite" /><br /><br />
-      <code>NumPy</code> &nbsp;<code>Pandas</code> &nbsp;<code>SQLite</code>
-    </td>
-    <td width="33%" valign="top">
-      <strong>Backend & Deployment</strong><br /><br />
-      <img src="https://skillicons.dev/icons?i=fastapi,docker,githubactions&theme=dark" alt="FastAPI, Docker, GitHub Actions" /><br /><br />
-      <code>FastAPI</code> &nbsp;<code>Docker</code> &nbsp;<code>GitHub Actions</code> &nbsp;<code>ONNX</code> &nbsp;<code>TensorRT</code>
-    </td>
-    <td width="33%" valign="top">
-      <strong>Systems & Tooling</strong><br /><br />
-      <img src="https://skillicons.dev/icons?i=git,linux&theme=dark" alt="Git, Linux" /><br /><br />
-      <code>Git</code> &nbsp;<code>Linux</code>
-    </td>
-  </tr>
-</table>
+    <!-- RIGHT SIDE: Neural Brain / Graph Network -->
+    <g transform="translate(735, 24)">
+      <rect x="0" y="0" width="425" height="272" rx="12" fill="#111A30" fill-opacity="0.75" stroke="#FF8A00" stroke-opacity="0.28" />
+      <line x1="0" y1="28" x2="425" y2="28" stroke="#8B5CF6" stroke-opacity="0.2" />
+      <circle cx="16" cy="14" r="3.5" fill="#FF8A00" />
+      <circle cx="28" cy="14" r="3.5" fill="#C084FC" />
+      <circle cx="40" cy="14" r="3.5" fill="#8B5CF6" fill-opacity="0.6" />
+      <text x="408" y="18" text-anchor="end" font-family="monospace" font-size="10" letter-spacing="1.2" fill="#CBD5E1">
+        NEURAL // SYNAPSE_GRAPH
+      </text>
 
-<br />
-<img src="./assets/section-divider.svg" alt="" width="100%" />
+      <!-- NEURAL BRAIN EDGES -->
+      <g stroke="url(#brainGrad)" stroke-opacity="0.45" stroke-width="1.5" fill="none">
+        <path d="M65,70 Q120,50 175,100 T280,80 T365,110" />
+        <path d="M65,130 Q130,150 190,110 T275,150 T365,130" />
+        <path d="M65,190 Q120,210 185,160 T280,190 T365,160" />
+        <path d="M65,70 L185,160" stroke-opacity="0.25" />
+        <path d="M65,190 L175,100" stroke-opacity="0.25" />
+        <path d="M175,100 L275,150" stroke-opacity="0.35" />
+        <path d="M190,110 L280,80" stroke-opacity="0.35" />
+        <path d="M185,160 L365,110" stroke-opacity="0.3" />
+        <path d="M275,150 L365,160" stroke-opacity="0.4" />
+      </g>
 
-<!-- SECTION 05 — FEATURED PROJECTS -->
-## `04 //` Featured Engineering Systems
+      <!-- ANIMATED SIGNAL PULSES -->
+      <circle r="3.5" fill="#FF8A00">
+        <animateMotion dur="2.5s" repeatCount="indefinite" path="M65,70 Q120,50 175,100 T280,80 T365,110" />
+      </circle>
+      <circle r="3" fill="#E8EEFF">
+        <animateMotion dur="2.1s" repeatCount="indefinite" path="M65,130 Q130,150 190,110 T275,150 T365,130" />
+      </circle>
+      <circle r="3.5" fill="#C084FC">
+        <animateMotion dur="2.8s" repeatCount="indefinite" path="M65,190 Q120,210 185,160 T280,190 T365,160" />
+      </circle>
+      <circle r="2.5" fill="#FFB03B">
+        <animateMotion dur="1.8s" repeatCount="indefinite" path="M175,100 L275,150" />
+      </circle>
 
-### `PROJECT A` &nbsp;LexViet — Vietnamese Legal Document Retrieval
-> **Domain:** Legal Information Retrieval · Hybrid Search · Multi-Stage Reranking  
-> **Repository:** [`github.com/ducdanh2304`](https://github.com/ducdanh2304) *(Verify exact repository slug on GitHub)*
+      <!-- NEURAL NODES -->
+      <circle cx="65" cy="70" r="6" fill="#0B1020" stroke="#FF8A00" stroke-width="2.2" />
+      <circle cx="65" cy="130" r="6" fill="#0B1020" stroke="#FF9E3B" stroke-width="2.2" />
+      <circle cx="65" cy="190" r="6" fill="#0B1020" stroke="#C084FC" stroke-width="2.2" />
 
-A Vietnamese statutory retrieval architecture built to surface exact legal provisions in response to complex natural-language queries across **596,062 indexed legal chunks**.
+      <circle cx="120" cy="55" r="4.5" fill="#FF8A00" fill-opacity="0.8" />
+      <circle cx="175" cy="100" r="7.5" fill="#0B1020" stroke="#D8B4FE" stroke-width="2.5" />
+      <circle cx="190" cy="110" r="5" fill="#C084FC" />
+      <circle cx="185" cy="160" r="8" fill="#0B1020" stroke="#FF8A00" stroke-width="2.5" />
+      <circle cx="130" cy="150" r="4.5" fill="#A855F7" fill-opacity="0.8" />
 
-<div align="center">
-  <img src="./assets/project-lexviet-arch.svg" alt="LexViet 11-Signal Hybrid Retrieval and Two-Stage Reranking Pipeline" width="100%" />
-</div>
+      <circle cx="280" cy="80" r="7" fill="#0B1020" stroke="#FF8A00" stroke-width="2.5" />
+      <circle cx="275" cy="150" r="6" fill="#C084FC" fill-opacity="0.9" />
+      <circle cx="280" cy="190" r="5" fill="#8B5CF6" />
 
-* **Structure-Aware Chunking:** Built a three-tier parser preserving Vietnamese legal hierarchies (*Chapter → Article → Clause*) with token-level fallback splitting.
-* **11-Signal Hybrid Fusion:** Combined dense embeddings, lexical retrieval, memory signals, and structural graph features via weighted Reciprocal Rank Fusion (RRF).
-* **Two-Stage Reranking & Distributed Caching:** Cascaded **LightGBM LambdaMART** with six-view **Jina reranking**, backed by a resumable SQLite cache storing **748,800** query-document-view scores across 3-GPU shards with deterministic merging and SHA-256 integrity checks.
-* **Verified Evaluation:** **96.35% Recall@60** and **94.28% Recall@5** across 2,080 private queries; improved 5-fold out-of-fold Top-5 hits from `466 → 475`.
+      <circle cx="365" cy="110" r="9" fill="#0B1020" stroke="#FF8A00" stroke-width="3">
+        <animate attributeName="r" values="8;10.5;8" dur="3s" repeatCount="indefinite" />
+      </circle>
+      <circle cx="365" cy="160" r="7.5" fill="#0B1020" stroke="#C084FC" stroke-width="2.5" />
 
-`Python` · `PyTorch` · `Hugging Face Transformers` · `LightGBM` · `SQLite` · `Dense Retrieval` · `Reranking`
+      <!-- Bottom Telemetry Bar -->
+      <line x1="16" y1="242" x2="409" y2="242" stroke="#8B5CF6" stroke-opacity="0.2" />
+      <text x="20" y="257" font-family="monospace" font-size="9.5" fill="#FFB03B">MODEL: DEEP_GRAPH</text>
+      <text x="212" y="257" text-anchor="middle" font-family="monospace" font-size="9.5" fill="#CBD5E1">WEIGHTS: OPTIMIZED</text>
+      <text x="405" y="257" text-anchor="end" font-family="monospace" font-size="9.5" fill="#C084FC">STATUS: ACTIVE</text>
+    </g>
 
----
+    <!-- LEFT SIDE: Long Name, Pro Terminal, & 4 Standardized Pills in ONE Line -->
+    <g transform="translate(42, 44)">
+      <!-- Name -->
+      <text x="0" y="54" font-family="sans-serif" font-size="48" font-weight="900" letter-spacing="1.8" fill="url(#titleGrad)">
+        NGUYEN DUC DANH
+      </text>
 
-### `PROJECT B` &nbsp;Multi-Vehicle Detection — 3LC Challenge (`1st Place`)
-> **Domain:** Data-Centric Computer Vision · Object Detection · Inference Optimization  
-> **Repository:** [`github.com/ducdanh2304/3lc-vehicle-detection-2nd-place`](https://github.com/ducdanh2304/3lc-vehicle-detection-2nd-place)
+      <!-- Pro Hacker Terminal Box -->
+      <g transform="translate(0, 78)">
+        <rect x="0" y="0" width="450" height="32" rx="6" fill="#0D1322" stroke="#4F8CFF" stroke-width="1.5" stroke-opacity="0.7" />
+        <circle cx="14" cy="16" r="3.5" fill="#EF4444" />
+        <circle cx="26" cy="16" r="3.5" fill="#F59E0B" />
+        <circle cx="38" cy="16" r="3.5" fill="#10B981" />
+        <line x1="50" y1="8" x2="50" y2="24" stroke="#334155" stroke-width="1" />
+        <text x="64" y="20.5" font-family="monospace" font-size="12" font-weight="700" fill="#93C5FD">
+          danhnd@ubuntu:~$ <tspan fill="#34D399">./init_ai_engine.sh</tspan>
+        </text>
+      </g>
 
-A data-centric object detection pipeline engineered to resolve severe annotation noise and missing bounding boxes in multi-class traffic imagery.
+      <!-- 4 Capability Pills in ONE SINGLE ROW (CV, NLP, MULTIMODAL LLM, AGENTIC AI) -->
+      <g transform="translate(0, 130)" font-family="monospace" font-size="11" font-weight="800">
+        <!-- Pill 1: CV -->
+        <rect x="0" y="0" width="82" height="32" rx="6" fill="#111A30" stroke="#FF8A00" stroke-width="1.8" stroke-opacity="0.8" />
+        <text x="41" y="20.5" text-anchor="middle" fill="#FFB03B">CV</text>
 
-* **Model-Assisted Data Auditing:** Iteratively surfaced unlabeled and misclassified vehicle instances using error analysis, executing **61 dataset revisions** alongside **21 controlled training runs**.
-* **Training & Augmentation Strategy:** Trained **YOLOv8n** from scratch for 250 epochs using SGD, cosine learning rate scheduling, and targeted Mosaic, MixUp, and Copy-Paste augmentations.
-* **Post-Processing Calibration:** Tuned confidence thresholds and Non-Maximum Suppression (NMS) parameters to maximize precision-recall balance on dense traffic scenes.
-* **Verified Leaderboard Results:** Ranked **1st Place** overall with **0.95099 mAP@0.5** (Public LB) and **0.94052 mAP@0.5** (Private LB).
+        <!-- Pill 2: NLP -->
+        <rect x="90" y="0" width="82" height="32" rx="6" fill="#111A30" stroke="#C084FC" stroke-width="1.8" stroke-opacity="0.8" />
+        <text x="131" y="20.5" text-anchor="middle" fill="#E9D5FF">NLP</text>
 
-`Python` · `PyTorch` · `YOLO` · `OpenCV` · `NumPy` · `Pandas`
+        <!-- Pill 3: MULTIMODAL LLM -->
+        <rect x="180" y="0" width="166" height="32" rx="6" fill="#111A30" stroke="#A855F7" stroke-width="1.8" stroke-opacity="0.8" />
+        <text x="263" y="20.5" text-anchor="middle" fill="#D8B4FE">MULTIMODAL LLM</text>
 
----
+        <!-- Pill 4: AGENTIC AI -->
+        <rect x="354" y="0" width="130" height="32" rx="6" fill="#111A30" stroke="#4F8CFF" stroke-width="1.8" stroke-opacity="0.8" />
+        <text x="419" y="20.5" text-anchor="middle" fill="#BAE6FD">AGENTIC AI</text>
+      </g>
+    </g>
+  </g>
 
-### `PROJECT C` &nbsp;Efficient Video Retrieval for Less-Resourced Languages (`First Author`)
-> **Domain:** Multimodal Semantic Search · Cross-Lingual Retrieval · Temporal Alignment  
-> **Publication:** [`Springer — Information and Communication Technology (SOICT)`](https://link.springer.com/chapter/10.1007/978-981-92-2597-2_36)
-
-An end-to-end multimodal video event retrieval system designed for Vietnamese queries over large-scale unscripted video archives, validated in the **HCMC AI Challenge 2025 Final Round (Top 5 / 600+ teams)**.
-
-* **Multi-Stream Feature Extraction:** Integrated **CLIP**, **BEiT-3**, and **MetaCLIP-2** for visual-semantic embeddings, **Co-DETR** for fine-grained object detection, **Vintern-3B** for scene OCR, **EraX-VL-2B-V1.5** for Vietnamese keyframe captioning, and **Whisper** for automatic speech recognition.
-* **Temporal Event Alignment:** Formulated multi-frame query matching using **Log-Sum-Exp** score aggregation and **Dynamic Programming** to localize sequential events across continuous video timelines.
-* **Verified Corpus Scale:** Indexed and searched **1,478 videos** spanning **300+ hours** and approximately **600,000 keyframes**.
-
-`Python` · `PyTorch` · `CLIP` · `BEiT-3` · `Whisper` · `VLM / OCR` · `Information Retrieval`
-
-<br />
-<img src="./assets/section-divider.svg" alt="" width="100%" />
-
-<!-- SECTION 06 — RESEARCH & PUBLICATIONS -->
-## `05 //` Research & Publications
-
-<table>
-  <tr>
-    <td valign="top">
-      <strong>Efficient Video Retrieval for Less-Resourced Languages via Multi-Modal Semantic Search</strong><br />
-      <sub><strong>Role:</strong> First Author &nbsp;·&nbsp; <strong>Venue:</strong> International Symposium on Information and Communication Technology (SOICT) — <em>Springer Nature Singapore</em> (2026) &nbsp;·&nbsp; <strong>DOI:</strong> <code>10.1007/978-981-92-2597-2_36</code></sub>
-      <p>
-        Addresses the semantic and linguistic gap in low-resource video retrieval by uniting dual-encoder vision-language representations with localized Vietnamese OCR, generated frame captions, ASR transcripts, and dynamic programming temporal search.
-      </p>
-      <p>
-        <strong>Focus Areas:</strong> <code>Multimodal Retrieval</code> &nbsp;<code>Low-Resource NLP</code> &nbsp;<code>Temporal Alignment</code> &nbsp;<code>Vision-Language Fusion</code><br />
-        <a href="https://link.springer.com/chapter/10.1007/978-981-92-2597-2_36"><strong>→ Access Published Chapter on SpringerLink</strong></a>
-      </p>
-    </td>
-  </tr>
-</table>
-
-<br />
-<img src="./assets/section-divider.svg" alt="" width="100%" />
-
-<!-- SECTION 07 — GITHUB ACTIVITY -->
-## `06 //` Engineering Activity
-
-<div align="center">
-  <!-- Contribution Snake generated via GitHub Action (.github/workflows/snake.yml) -->
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ducdanh2304/ducdanh2304/output/github-contribution-grid-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ducdanh2304/ducdanh2304/output/github-contribution-grid-snake.svg" />
-    <img alt="GitHub Contribution Graph Animation for ducdanh2304" src="https://raw.githubusercontent.com/ducdanh2304/ducdanh2304/output/github-contribution-grid-snake-dark.svg" width="100%" />
-  </picture>
-</div>
-
-<br />
-
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=ducdanh2304&theme=transparent&hide_border=true&title_color=60A5FA&text_color=E8EEFF&icon_color=8B5CF6&ring=4F8CFF&fire=A78BFA&currStreakLabel=60A5FA&sideLabels=A6B3D1&dates=A6B3D1" alt="GitHub Contribution Streak for ducdanh2304" />
-</div>
-
-<br />
-<img src="./assets/section-divider.svg" alt="" width="100%" />
-
-<!-- SECTION 08 — CONNECT WITH ME -->
-## `07 //` Connect
-
-<p align="center">
-  Always interested in building meaningful AI systems and collaborating on challenging engineering problems.
-</p>
-
-<p align="center">
-  <a href="mailto:danhnd.work@gmail.com">
-    <img src="https://img.shields.io/badge/Email-danhnd.work%40gmail.com-4F8CFF?style=for-the-badge&logo=gmail&logoColor=E8EEFF&labelColor=111A30" alt="Email danhnd.work@gmail.com" />
-  </a>
-  <a href="https://linkedin.com/in/danhnd2304" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-in%2Fdanhnd2304-8B5CF6?style=for-the-badge&logo=linkedin&logoColor=E8EEFF&labelColor=111A30" alt="LinkedIn danhnd2304" />
-  </a>
-  <a href="https://github.com/ducdanh2304" target="_blank">
-    <img src="https://img.shields.io/badge/GitHub-ducdanh2304-60A5FA?style=for-the-badge&logo=github&logoColor=0B1020&labelColor=111A30" alt="GitHub ducdanh2304" />
-  </a>
-</p>
+  <rect x="0.5" y="0.5" width="1199" height="319" rx="16" stroke="#FF8A00" stroke-opacity="0.3" />
+</svg>
