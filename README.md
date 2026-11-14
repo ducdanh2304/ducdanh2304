@@ -69,3 +69,49 @@
 </div>
 
 ---
+
+---
+
+### <div align="center">🚀 Featured AI & ML Projects</div>
+
+<br>
+
+<div align="center">
+  <table>
+    <tr>
+      <td width="50%" valign="top" style="background-color: #0F172A; border: 1px solid #334155; border-radius: 12px; padding: 20px;">
+        <h3>⚖️ LexViet — Legal Document Retrieval</h3>
+        <p style="color: #CBD5E1; font-size: 14px; line-height: 1.6;">
+          An advanced information retrieval pipeline for Vietnamese legal texts. Built with a robust hybrid retrieval architecture combining dense embeddings, sparse retrieval, and multi-stage reranking to achieve high precision on complex legal queries.
+        </p>
+        <p style="font-size: 13px;">
+          <b>Tech Stack:</b><br>
+          <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"/>&nbsp;
+          <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" alt="PyTorch"/>&nbsp;
+          <img src="https://img.shields.io/badge/Dense_Retrieval-FF8A00?style=flat-square&logo=qdrant&logoColor=white" alt="Retrieval"/>&nbsp;
+          <img src="https://img.shields.io/badge/Reranking-C084FC?style=flat-square&logo=cohere&logoColor=white" alt="Reranking"/>
+        </p>
+        <p style="margin-top: 16px;">
+          <a href="https://github.com/ducdanh2304" target="_blank"><img src="https://img.shields.io/badge/GitHub-View_Repository-181717?style=flat-square&logo=github&logoColor=white" alt="Repo"/></a>
+        </p>
+      </td>
+      <td width="50%" valign="top" style="background-color: #0F172A; border: 1px solid #334155; border-radius: 12px; padding: 20px;">
+        <h3>🚗 Multi-Vehicle Detection Challenge</h3>
+        <p style="color: #CBD5E1; font-size: 14px; line-height: 1.6;">
+          A high-performance computer vision solution for multi-class vehicle detection. Focused on data-centric error inspection, label auditing, and rigorous optimization to maximize mAP metrics under challenging real-world occlusion conditions.
+        </p>
+        <p style="font-size: 13px;">
+          <b>Tech Stack:</b><br>
+          <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"/>&nbsp;
+          <img src="https://img.shields.io/badge/YOLO-00FFFF?style=flat-square&logo=ultralytics&logoColor=black" alt="YOLO"/>&nbsp;
+          <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white" alt="OpenCV"/>&nbsp;
+          <img src="https://img.shields.io/badge/Data_Centric_AI-76B900?style=flat-square&logo=nvidia&logoColor=white" alt="AI"/>
+        </p>
+        <p style="margin-top: 16px;">
+          <a href="https://github.com/ducdanh2304" target="_blank"><img src="https://img.shields.io/badge/GitHub-View_Repository-181717?style=flat-square&logo=github&logoColor=white" alt="Repo"/></a>
+        </p>
+      </td>
+    </tr>
+  </table>
+</div>
+
