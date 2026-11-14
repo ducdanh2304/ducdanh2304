@@ -1,6 +1,6 @@
 <!-- SECTION 01 — HERO / INTRODUCTION -->
 <div align="center">
-  <img src="https://raw.githubusercontent.com/ducdanh2304/ducdanh2304/main/assets/hero-banner.svg?v=1000" alt="Nguyen Duc Danh — AI Systems and Applied ML" width="100%" />
+  <img src="https://raw.githubusercontent.com/ducdanh2304/ducdanh2304/main/assets/hero-banner.svg?v=2000" alt="Nguyen Duc Danh — AI Systems and Applied ML" width="100%" />
 </div>
 
 <div align="center" style="line-height: 0; margin-top: 10px;">
